@@ -1,4 +1,6 @@
-def weighted_ml_opt(X_train, oracles, ground_truth, vae_0, weights_type='dbas',
+import numpy as np
+
+def weighted_opt(X_train, oracles, ground_truth, vae_0, weights_type='dbas',
                     LD=20, iters=20, samples=500, homoscedastic=False, homo_y_var=0.1,
                     quantile=0.95, verbose=False, alpha=1, train_gt_evals=None,
                     cutoff=1e-6, it_epochs=10, enc1_units=50):
@@ -121,3 +123,6 @@ def weighted_ml_opt(X_train, oracles, ground_truth, vae_0, weights_type='dbas',
                 'oracle_max_seq': oracle_max_seq, 
                 'gt_of_oracle_max': gt_of_oracle_max}
     return traj, oracle_samples, gt_samples, max_dict
+
+def train_vae():
+    pass

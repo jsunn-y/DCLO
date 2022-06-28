@@ -1,0 +1,3 @@
+Config file:	 /home/jyang4/repos/DCLO/configs/test.py
+Save directory:	 /home/jyang4/repos/DCLO/saved/te
+Device:	 cuda:0

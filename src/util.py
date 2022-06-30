@@ -11,6 +11,8 @@ def get_init_samples(n_samples, n_sites):
     for i in range(n_samples):
         for j in range(n_sites*3):
             choice = (0, 0, 0, 0)
+
+            #alternatively make sure the sum is greater than a certain amount
             while sum(choice) == 0:
                 choice = np.random.choice(2, 4)
             initial[i, 4*j:4*(j+1)] = choice
@@ -18,9 +20,19 @@ def get_init_samples(n_samples, n_sites):
 
 def get_samples(Xt_p):
     """Samples from a categorical probability distribution specifying the probability of a nucleotide being allowed at each position in a sequence"""
-    samples = np.random.uniform(size = (Xt_p.shape[0], Xt_p.shape[1]))
-    boolean = Xt_p < samples
-    Xt_sampled = boolean*1
+    Xt_sampled = np.zeros((Xt_p.shape[0], Xt_p.shape[1]))
+    for i in range(Xt_p.shape[0]):
+        for j in range(int(Xt_p.shape[1]/4)):
+            probs = Xt_p[i, 4*j:4*(j+1)]
+            samples = np.random.uniform(size = 4)
+            boolean =  probs < samples
+            choice = boolean*1
+            if sum(choice == 0):
+                # this is getting triggered at every site
+                choice[np.argmax(probs)] = 1
+            Xt_sampled[i, 4*j:4*(j+1)] = choice
+    return Xt_sampled
+    
     
     #old code
     # Xt_sampled = np.zeros_like(Xt_p)
@@ -33,6 +45,6 @@ def get_samples(Xt_p):
     
     #write something to prevent it from sampling 4 zeros?
 
-    return Xt_sampled
+    #return Xt_sampled
 
 

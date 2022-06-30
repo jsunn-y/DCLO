@@ -65,14 +65,19 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
             weights = norm.sf(y_star, loc=yt, scale=np.sqrt(yt_var))
         else:
             weights = np.ones(yt.shape[0])
-            
+        print(yt)
+        print(yt_var)
+        print(weights)
+        for row in Xt:
+            print(encoding2seq(row))
+
         yt_max_idx = np.argmax(yt)
         yt_max = yt[yt_max_idx]
 
         if yt_max > oracle_max:
             oracle_max = yt_max
             try:
-                oracle_max_seq = encoding2seq(Xt[yt_max_idx-1:yt_max_idx])[0]
+                oracle_max_seq = encoding2seq(Xt[yt_max_idx-1:yt_max_idx])
             except IndexError:
                 print(Xt[yt_max_idx-1:yt_max_idx])
         
@@ -107,6 +112,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         yt = np.delete(yt, cutoff_idx, axis=0)
         weights = np.delete(weights, cutoff_idx, axis=0)
 
+        #reset the weights?
         vae = start_training(Xt, save_path, data_config, vae_model_config, vae_train_config, device, weights)
             # vae.fit([Xt], [Xt, np.zeros(Xt.shape[0])],
             #       epochs=it_epochs,
@@ -114,6 +120,8 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
             #       shuffle=False,
             #       sample_weight=[weights, weights],
             #       verbose=0)
+            
+        #print(oracle_max_seq)
     
     max_dict = {'oracle_max' : oracle_max, 
                 'oracle_max_seq': oracle_max_seq}

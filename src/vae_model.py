@@ -86,6 +86,8 @@ class VAE(nn.Module):
 
     @staticmethod
     def compute_reconst_loss(x, x_reconst, weights):
+        #print(sum(x))
+        #print(x_reconst)
         reconst_loss = F.binary_cross_entropy(torch.sigmoid(x_reconst), x, reduction = 'none') #weights in the function is for class weights
         reconst_loss = torch.sum(reconst_loss, axis = 1)
         reconst_loss = reconst_loss * weights

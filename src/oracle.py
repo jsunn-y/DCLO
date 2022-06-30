@@ -10,9 +10,11 @@ class Oracle():
         self.mappings = {}
         self.n_samples = data_config["samples"]
         df = pd.read_csv("/home/jyang4/repos/DCLO/data/GB1_AllPredictions.csv")
-
+        
+        scaled_zs = df[data_config["zs_names"]].values - min(df[data_config["zs_names"]].values)
+        self.avg_zs = np.mean(scaled_zs)
         #missing some of the combos, will need to fill in
-        self.combo2zs_dict = dict(zip(df["Combo"].values, df[data_config["zs_names"]].values))
+        self.combo2zs_dict = dict(zip(df["Combo"].values, scaled_zs))
 
     def __encoding2nucleotides(self, encoding):
         """converts a numerical encoding of a mixed base library into its possible nucleotide sequences (sampled or fully iterated)"""
@@ -22,8 +24,10 @@ class Oracle():
         
         #insert a seed here?
         
-        if seq in self.mappings.items():
-            return self.mappings[seq]
+        #if seq in self.mappings.items():
+        #    return self.mappings[seq]
+        if False:
+            pass
         else: 
             ###sample randomly from what is allowed###
             bseqs = []
@@ -31,8 +35,10 @@ class Oracle():
                 bseq = ""
                 for row in encoding:
                     indices = np.where(row == 1)
-                    choice = np.random.choice([index2base_dict[x[0]] for x in indices])
+                    choices = [index2base_dict[x] for x in indices[0]]
+                    choice = np.random.choice(choices)
                     bseq += choice
+                #print(bseq)
                 bseqs.append(bseq)
         
         return bseqs
@@ -49,7 +55,7 @@ class Oracle():
         #return self.seqs
     
     def __nucleotides2zs(self, bseqs):
-        #map a nucleotide to its corresponding protein sequence
+        #map nucleotides to their corresponding protein sequences
         #map all protein sequences to their corresponding zero shot scores
         #report the distribution
         aaseqs = [Seq(seq).translate() for seq in bseqs]
@@ -58,8 +64,8 @@ class Oracle():
             if seq in self.combo2zs_dict.keys():
                 zs_scores.append(self.combo2zs_dict[seq])
             else:
-                zs_scores.append(0)
-        return np.mean(zs_scores), np.std(zs_scores)
+                zs_scores.append(self.avg_zs)
+        return np.mean(zs_scores), np.var(zs_scores)
     
     def predict(self, encodings): 
         results = np.zeros((encodings.shape[0], 2))
@@ -71,6 +77,7 @@ class Oracle():
             results[i, :] = self.__nucleotides2zs(self.__encoding2nucleotides(row))
             pbar.update()
         
+        #add to self.mappings (doesn't make sense if you just)
         return results[:,0], results[:,1]
 
     # def make_seq(nucleotide):

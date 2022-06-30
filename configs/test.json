@@ -21,9 +21,8 @@
     "vae_train_config": {
         "seed": 42,
         "batch_size": 128,
-        "learning_rate": 0.001,
-        "num_epochs": 300,
-        "device": "cuda"
+        "learning_rate": 0.0001,
+        "num_epochs": 500
     },
     "opt_config": {
         "type": "dbas",

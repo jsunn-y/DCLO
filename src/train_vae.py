@@ -5,8 +5,7 @@ import numpy as np
 from itertools import cycle
 import torch
 import torch.nn as nn
-from torch.utils.data import TensorDataset
-from torch.utils.data import DataLoader
+from torch.utils.data import TensorDataset, DataLoader
 from tqdm.auto import tqdm
 from src.vae_model import VAE
 

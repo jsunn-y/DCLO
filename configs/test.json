@@ -22,7 +22,7 @@
         "seed": 42,
         "batch_size": 128,
         "learning_rate": 0.0001,
-        "num_epochs": 500
+        "num_epochs": 5000
     },
     "opt_config": {
         "type": "dbas",

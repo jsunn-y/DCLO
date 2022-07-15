@@ -43,36 +43,56 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
 
     for t in range(iters):
         print('####  Iteration: ' + str(t+1) + '  ####')
-        ### Take samples ###
+        ### Take random normal samples ###
         zt = np.random.randn(samples, vae_model_config['z_dim'])
         if t > 0:
             Xt_p = vae.decode(torch.tensor(zt).float())
-            Xt = get_samples(Xt_p.detach().numpy())
+            Xt_new = get_samples(Xt_p.detach().numpy())
+            Xt = Xt_new
+
+            #can train the VAE with all the samples or just the new ones
+            print(Xt.shape)
+            # print(Xt_new.shape)
+            # Xt = np.concatenate((Xt_new, Xt), axis = 0)
+            # print(Xt.shape)
         else:
             Xt = get_init_samples(samples, sites)
         
         ### Evaluate ground truth and oracle ###
-        #is the variance of the zs score distribution a form of uncertainty?
-        
+
         yt, yt_var = oracle.predict(Xt)
         
         ### Calculate weights for different schemes ###
         if t > 0:
             #weights for dbas
+            #finds the y value that represents the desired percentile
             y_star_1 = np.percentile(yt, opt_config['quantile']*100)
+            
             if y_star_1 > y_star:
                 y_star = y_star_1
-            weights = norm.sf(y_star, loc=yt, scale=np.sqrt(yt_var))
+
+            print(y_star)
+            #uses the survival function (1 - cdf), shouldn't it be the opposite?
+            #find what fraction of samples lie above y_star if the zs_distribution was modelled as a standard normal
+            ###in the original paper, highly uncertain weights are penalized###
+            #instead we penalize  the opposite (low-variance ZS score distributions), but really we should penalize diversity
+            #weights = norm.sf(y_star, loc=yt, scale=np.sqrt(yt_var))
+            
+            ###ignore the uncertainty of the weights###
+            weights = norm.sf(y_star, loc=yt)
         else:
             weights = np.ones(yt.shape[0])
+
         print(yt)
         print(yt_var)
         print(weights)
-        for row in Xt:
-            print(encoding2seq(row))
+        # for row in Xt[:50]:
+        #     print(encoding2seq(row))
+
 
         yt_max_idx = np.argmax(yt)
         yt_max = yt[yt_max_idx]
+        print(encoding2seq(Xt[yt_max_idx-1:yt_max_idx]))
 
         if yt_max > oracle_max:
             oracle_max = yt_max
@@ -82,13 +102,15 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
                 print(Xt[yt_max_idx-1:yt_max_idx])
         
         ### Record and print results ##
-        #is this subsampling or sampling the same amount?
+        #is this subsampling or just reordering initially?
         if t == 0:
             rand_idx = np.random.randint(0, len(yt), samples)
             oracle_samples[t, :] = yt[rand_idx]
+        #is it even used later on?
         if t > 0:
-            oracle_samples[t, :] = yt
+            oracle_samples[t, :] = yt[-samples:]
         
+        #update to make the print statements more informative
         traj[t, 3] = np.max(yt)
         traj[t, 4] = np.mean(yt)
         traj[t, 5] = np.std(yt)
@@ -106,7 +128,9 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         #     # vae.decoder_.set_weights(vae_0.decoder_.get_weights())
         #     # vae.vae_.set_weights(vae_0.vae_.get_weights())
         # else:
-            
+        
+        #do not even need to consider samples with a weight of zero
+        #need to check this part of code
         cutoff_idx = np.where(weights < opt_config['cutoff'])
         Xt = np.delete(Xt, cutoff_idx, axis=0)
         yt = np.delete(yt, cutoff_idx, axis=0)
@@ -120,8 +144,6 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
             #       shuffle=False,
             #       sample_weight=[weights, weights],
             #       verbose=0)
-            
-        #print(oracle_max_seq)
     
     max_dict = {'oracle_max' : oracle_max, 
                 'oracle_max_seq': oracle_max_seq}

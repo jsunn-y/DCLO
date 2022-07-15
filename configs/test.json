@@ -4,7 +4,8 @@
         "zs_names": [
             "Triad-FixedBb-dG"
         ],
-        "samples": 100,
+        "samples": 384,
+        "diversity_thresh": 100,
         "sites": 4
     },
     "vae_model_config": {
@@ -22,14 +23,15 @@
         "seed": 42,
         "batch_size": 128,
         "learning_rate": 0.0001,
-        "num_epochs": 5000
+        "num_epochs": 500
     },
     "opt_config": {
         "type": "dbas",
         "seed": 42,
-        "iters": 20,
+        "iters": 1,
         "samples": 500,
-        "quantile": 0.95,
-        "cutoff": 1e-6
+        "quantile": 0.60,
+        "cutoff": 1e-6,
+        "num_workers": 64
     }
 }

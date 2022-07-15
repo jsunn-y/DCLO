@@ -13,7 +13,9 @@ def get_init_samples(n_samples, n_sites):
             choice = (0, 0, 0, 0)
 
             #alternatively make sure the sum is greater than a certain amount
-            while sum(choice) == 0:
+            #this effectively initializes in a region with high diversity
+            # or just make sure its not 0
+            while sum(choice) < 2:
                 choice = np.random.choice(2, 4)
             initial[i, 4*j:4*(j+1)] = choice
     return initial
@@ -42,8 +44,6 @@ def get_samples(Xt_p):
     #         #either 0 or 1
     #         k = np.random.choice(np.arange(2), p=[p, 1-p])
     #         Xt_sampled[i, j] = k
-    
-    #write something to prevent it from sampling 4 zeros?
 
     #return Xt_sampled
 

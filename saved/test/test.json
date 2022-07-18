@@ -28,10 +28,11 @@
     "opt_config": {
         "type": "dbas",
         "seed": 42,
-        "iters": 1,
+        "iters": 20,
         "samples": 500,
+        "uncertainty": false,
         "quantile": 0.6,
         "cutoff": 1e-06,
-        "num_workers": 64
+        "num_workers": 80
     }
 }

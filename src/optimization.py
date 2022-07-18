@@ -29,6 +29,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
     iters = opt_config["iters"]
     sites = data_config["sites"]
     samples = opt_config["samples"]
+    uncertainty = opt_config["uncertainty"]
 
     traj = np.zeros((iters, 7))
     oracle_samples = np.zeros((iters, samples))
@@ -42,7 +43,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
     oracle = Oracle(data_config)
 
     for t in range(iters):
-        print('####  Iteration: ' + str(t+1) + '  ####')
+        print('\n####  Iteration: ' + str(t+1) + '  ####')
         ### Take random normal samples ###
         zt = np.random.randn(samples, vae_model_config['z_dim'])
         if t > 0:
@@ -51,7 +52,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
             Xt = Xt_new
 
             #can train the VAE with all the samples or just the new ones
-            print(Xt.shape)
+            #print(Xt.shape)
             # print(Xt_new.shape)
             # Xt = np.concatenate((Xt_new, Xt), axis = 0)
             # print(Xt.shape)
@@ -60,7 +61,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         
         ### Evaluate ground truth and oracle ###
 
-        yt, yt_var = oracle.predict(Xt)
+        yt, yt_var, div, div_var = oracle.predict(Xt)
         
         ### Calculate weights for different schemes ###
         if t > 0:
@@ -76,32 +77,28 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
             #find what fraction of samples lie above y_star if the zs_distribution was modelled as a standard normal
             ###in the original paper, highly uncertain weights are penalized###
             #instead we penalize  the opposite (low-variance ZS score distributions), but really we should penalize diversity
-            #weights = norm.sf(y_star, loc=yt, scale=np.sqrt(yt_var))
-            
+
+            if uncertainty == True:
+                weights = norm.sf(y_star, loc=yt, scale=np.sqrt(yt_var))
+            else:
             ###ignore the uncertainty of the weights###
-            weights = norm.sf(y_star, loc=yt)
+                weights = norm.sf(y_star, loc=yt)
         else:
             weights = np.ones(yt.shape[0])
 
-        print(yt)
-        print(yt_var)
         print(weights)
-        # for row in Xt[:50]:
-        #     print(encoding2seq(row))
-
 
         yt_max_idx = np.argmax(yt)
         yt_max = yt[yt_max_idx]
-        print(encoding2seq(Xt[yt_max_idx-1:yt_max_idx]))
-
+        
         if yt_max > oracle_max:
             oracle_max = yt_max
+            div_max = div[yt_max_idx]
             try:
-                oracle_max_seq = encoding2seq(Xt[yt_max_idx-1:yt_max_idx])
+                oracle_max_seq = encoding2seq(Xt[yt_max_idx])
             except IndexError:
-                print(Xt[yt_max_idx-1:yt_max_idx])
+                print(Xt[yt_max_idx])
         
-        ### Record and print results ##
         #is this subsampling or just reordering initially?
         if t == 0:
             rand_idx = np.random.randint(0, len(yt), samples)
@@ -110,14 +107,23 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         if t > 0:
             oracle_samples[t, :] = yt[-samples:]
         
-        #update to make the print statements more informative
-        traj[t, 3] = np.max(yt)
-        traj[t, 4] = np.mean(yt)
-        traj[t, 5] = np.std(yt)
-        traj[t, 6] = np.mean(yt_var)
+        #Keep track of training statistics
+        traj[t, 0] = np.max(yt)
+        traj[t, 1] = np.mean(yt)
+
+        traj[t, 2] = div[yt_max_idx]
+        traj[t, 3] = np.mean(div)
+        traj[t, 4] = np.std(yt)
+        traj[t, 5] = np.mean(np.sqrt(yt_var))
         
+        ### Record and print results ##
         if verbose:
-            print(t, traj[t, 3], color.BOLD + str(traj[t, 4]) + color.END, traj[t, 5], traj[t, 6])
+            print("Iteration: %2d, Mean Score: %6.0f, Mean Diversity: %4.0f, Avg Std of Score: %5.0f" % (t+1, traj[t, 1], traj[t, 3], traj[t, 5]))
+            print("Best Sequence of this Iteration: %s (Score: %6.0f, Diversity: %4.0f)" % (encoding2seq(Xt[yt_max_idx]), traj[t, 0], traj[t, 2]))
+
+            print("Running Best: %s (Score: %6.0f, Diversity: %4.0f)" % (oracle_max_seq,oracle_max, div_max))
+            
+            # print(t, traj[t, 3], color.BOLD + str(traj[t, 4]) + color.END, traj[t, 5], traj[t, 6])
         
         ### Train model ###
         #changed code so that training starts in the first round
@@ -129,8 +135,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         #     # vae.vae_.set_weights(vae_0.vae_.get_weights())
         # else:
         
-        #do not even need to consider samples with a weight of zero
-        #need to check this part of code
+        #do not need to consider samples with a weight of zero (below the cutoff)
         cutoff_idx = np.where(weights < opt_config['cutoff'])
         Xt = np.delete(Xt, cutoff_idx, axis=0)
         yt = np.delete(yt, cutoff_idx, axis=0)
@@ -138,14 +143,9 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
 
         #reset the weights?
         vae = start_training(Xt, save_path, data_config, vae_model_config, vae_train_config, device, weights)
-            # vae.fit([Xt], [Xt, np.zeros(Xt.shape[0])],
-            #       epochs=it_epochs,
-            #       batch_size=10,
-            #       shuffle=False,
-            #       sample_weight=[weights, weights],
-            #       verbose=0)
     
     max_dict = {'oracle_max' : oracle_max, 
-                'oracle_max_seq': oracle_max_seq}
+                'oracle_max_seq': oracle_max_seq,
+                'diversity_max': div_max}
     
     return traj, oracle_samples, max_dict

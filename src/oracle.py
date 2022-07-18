@@ -1,4 +1,7 @@
 from multiprocessing import Pool
+from multiprocessing.dummy import Pool as ThreadPool
+from concurrent.futures import ProcessPoolExecutor
+from unittest import result
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -12,7 +15,8 @@ class Oracle():
         self.mappings = {}
         self.n_samples = data_config["samples"]
         self.diversity_thresh = data_config["diversity_thresh"]
-        self.num_workers = 64
+        self.repeats = 80
+        self.num_workers = 85
 
         df = pd.read_csv("/home/jyang4/repos/DCLO/data/GB1_all_triad.csv")
         
@@ -64,6 +68,7 @@ class Oracle():
         #report the distribution
         aaseqs = [Seq(seq).translate() for seq in bseqs]
         zs_scores = []
+
         for seq in aaseqs:
             if seq in self.combo2zs_dict.keys():
                 zs_scores.append(self.combo2zs_dict[seq])
@@ -81,32 +86,66 @@ class Oracle():
 
         diversity = len(np.unique(zs_scores))
         #enforce a certain level of diversity 
+        #no longer need to calculate the variance of the nucleotides, only the variance of the sampling
+
         if diversity < self.diversity_thresh:
-            return 0, 0
+            return 0, diversity
         else:
-            return np.mean(zs_scores), np.var(zs_scores)
+            return np.mean(zs_scores), diversity
     
     def predict(self, encodings): 
-        results = np.zeros((encodings.shape[0], 2))
-        pbar = tqdm()
-        pbar.reset(len(encodings))
-        pbar.set_description('Predicting')
+        self.encodings = encodings
+        self.batch_size = encodings.shape[0]
+        
+        #run the repeated encoding calculations in parallel 
+        results = np.zeros((self.batch_size, 2, self.repeats))
+        with Pool(self.num_workers) as p:
+            # with tqdm() as pbar:
+            #     pbar = tqdm()
+            #     pbar.reset(self.batch_size*self.repeats)
+            #     pbar.set_description('Predicting')
+            seeds = range(self.repeats)
+            pbar = tqdm(p.imap_unordered(self.predictor_all, seeds),
+            total=self.repeats)
+            pbar.set_description('Predicting through Oracle')
 
-        for i, row in enumerate(encodings):
-            
+            #all_results = p.map(self.predictor_all, [encodings]*self.repeats)
+
+            for i, result in enumerate(pbar):
+                 results[:,:,i] = result
+        
+        means = np.mean(results, axis = 2)
+        vars =  np.var(results, axis = 2)
+
+        scores = means[:, 0]
+        diversities = means[:, 1]
+        score_vars = vars[:, 0]
+        diversity_vars = vars[:, 1]
+
+        #all_results = np.zeros((self.batch_size, 2, self.repeats))
+
+        ### Other option is to run each row in parallel ###
+        #probably less efficient because each row is so quick
+        # with Pool(self.num_workers) as p:
+        #      all_results = p.map(self.predictor, [row for row in encodings])
+        
+        # all_results = np.array(all_results)
+
+        return scores, score_vars, diversities, diversity_vars
+
+    def predictor(self, encoding):
+        return self.__nucleotides2zs(self.__encoding2nucleotides(encoding))
+
+    def predictor_all(self, myseed):
+        np.random.seed(myseed)
+        results = np.zeros((self.batch_size, 2))
+        for i, row in enumerate(self.encodings):
             results[i, :] = self.__nucleotides2zs(self.__encoding2nucleotides(row))
+        return results
+        
             #if encoding2seq(row) == 'WSHYYHMSWNYS':
             #    exit()
-            pbar.update()
         
-        #add to self.mappings (doesn't make sense if you just)
-        return results[:,0], results[:,1]
-
-    
-    with Pool(self.num_workers) as p:
-        bseqs = p.map(self.sampler, [encoding]*self.n_samples)
-
-
     # def make_seq(nucleotide):
     #     self.seq += nucleotide
 

@@ -5,7 +5,6 @@
             "Triad-FixedBb-dG"
         ],
         "samples": 384,
-        "diversity_thresh": 100,
         "sites": 4
     },
     "vae_model_config": {
@@ -16,14 +15,14 @@
         "dec_dim1": 40,
         "dec_dim2": 40,
         "dropout": 0,
-        "reconstruction_loss_weight": 1,
+        "reconstruction_loss_weight": 5,
         "kl_div_weight": 1
     },
     "vae_train_config": {
         "seed": 42,
         "batch_size": 128,
         "learning_rate": 0.0001,
-        "num_epochs": 500
+        "num_epochs": 1000
     },
     "opt_config": {
         "type": "dbas",
@@ -33,6 +32,9 @@
         "uncertainty": false,  
         "quantile": 0.60,
         "cutoff": 1e-6,
-        "num_workers": 80
+        "diversity_thresh": 100,
+        "num_repeats": 80,
+        "num_workers": 85,
+        "top_fraction": 0.25
     }
 }

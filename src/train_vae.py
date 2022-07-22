@@ -70,8 +70,6 @@ def start_training(Xt, save_path, data_config, vae_model_config, vae_train_confi
         recon_loss, kl_div = train(weights, model, device, train_loader, pbar)
         loss = recon_loss + kl_div
 
-        #tqdm.write(f'Epoch {epoch:02d}, recon_loss: {recon_loss:.4f}, kl_div: {kl_div:.4f}')
-            
         #update the best model after each epoch
         # if epoch == 1 or loss < best_loss:
         #     best_loss = loss
@@ -79,4 +77,9 @@ def start_training(Xt, save_path, data_config, vae_model_config, vae_train_confi
         #     print('Best model saved') 
         
         pbar.update()
+        if epoch == 1 or epoch == vae_train_config['num_epochs']:
+            n_samples = len(train_loader)
+            #should kl div be scaled by the number of samples?
+            tqdm.write(f'Epoch {epoch:02d}, recon_loss: {recon_loss/n_samples:.4f}, kl_div: {kl_div:.4f}')
+    
     return model

@@ -1,0 +1,93 @@
+Config file:	 /home/jyang4/repos/DCLO/configs/stable_VAE2.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/stable_VAE2
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 863.5187, kl_div: 1121.5114
+Epoch 1000, recon_loss: 473.8621, kl_div: 5499.0488
+
+####  Iteration: 2  ####
+Quantile Cutoff:  67597
+Sum of Weights: 400
+Mean Score:  64760,  Mean Counts:   88, Mean Diversity:  313
+Std Score:  2608, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: RDMMRMKBDDHD (Score: 101950, Counts:  204, Diversity:  318)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 265.8991, kl_div: 155.0971
+Epoch 1000, recon_loss: 152.9191, kl_div: 627.8634
+
+####  Iteration: 3  ####
+Quantile Cutoff:  67597
+Sum of Weights: 149
+Mean Score:  48765,  Mean Counts:   66, Mean Diversity:  237
+Std Score:  2106, Std Counts:     6, Std Diversity:     7
+Best Sequence of this Iteration: SBBRNWRGWNYD (Score: 102886, Counts:  209, Diversity:  331)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 698.4778, kl_div: 248.5941
+Epoch 1000, recon_loss: 442.7487, kl_div: 563.7117
+
+####  Iteration: 4  ####
+Quantile Cutoff:  67597
+Sum of Weights: 266
+Mean Score:  59752,  Mean Counts:   78, Mean Diversity:  297
+Std Score:  2500, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: DYVMWWVDWDYG (Score: 109102, Counts:  196, Diversity:  353)
+Running Best: DYVMWWVDWDYG (Score: 109102, Counts:  196,  Diversity:  353)
+Epoch 01, recon_loss: 244.3410, kl_div: 100.4955
+Epoch 1000, recon_loss: 131.5929, kl_div: 329.3460
+
+####  Iteration: 5  ####
+Quantile Cutoff:  67597
+Sum of Weights: 104
+Mean Score:  46057,  Mean Counts:   58, Mean Diversity:  239
+Std Score:  1942, Std Counts:     5, Std Diversity:     7
+Best Sequence of this Iteration: RYDVBVGSHRND (Score: 103773, Counts:  246, Diversity:  307)
+Running Best: DYVMWWVDWDYG (Score: 109102, Counts:  196,  Diversity:  353)
+Epoch 01, recon_loss: 6911.8652, kl_div: 1208.1641
+Epoch 1000, recon_loss: 4532.0645, kl_div: 2283.7551
+
+####  Iteration: 6  ####
+Quantile Cutoff:  68108
+Sum of Weights: 400
+Mean Score:  64263,  Mean Counts:   91, Mean Diversity:  289
+Std Score:  2540, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: NDTMWGRKKDYR (Score: 103120, Counts:  179, Diversity:  343)
+Running Best: DYVMWWVDWDYG (Score: 109102, Counts:  196,  Diversity:  353)
+Epoch 01, recon_loss: 265.8216, kl_div: 162.2062
+Epoch 1000, recon_loss: 112.6125, kl_div: 563.0914
+
+####  Iteration: 7  ####
+Quantile Cutoff:  68108
+Sum of Weights:  74
+Mean Score:  37893,  Mean Counts:   47, Mean Diversity:  214
+Std Score:  1679, Std Counts:     4, Std Diversity:     6
+Best Sequence of this Iteration: WBNVNNGSHDNB (Score: 116696, Counts:  283, Diversity:  335)
+Running Best: WBNVNNGSHDNB (Score: 116696, Counts:  283,  Diversity:  335)
+Epoch 01, recon_loss: 4935.1533, kl_div: 810.2622
+Epoch 1000, recon_loss: 2584.9922, kl_div: 1315.5492
+
+####  Iteration: 8  ####
+Quantile Cutoff:  68108
+Sum of Weights:  93
+Mean Score:  51881,  Mean Counts:   62, Mean Diversity:  265
+Std Score:  2282, Std Counts:     6, Std Diversity:     8
+Best Sequence of this Iteration: NKCWMTNDTNWC (Score: 100070, Counts:  152, Diversity:  360)
+Running Best: WBNVNNGSHDNB (Score: 116696, Counts:  283,  Diversity:  335)
+Epoch 01, recon_loss: 6065.7847, kl_div: 1010.6906
+Epoch 1000, recon_loss: 2131.3423, kl_div: 1538.7994
+
+####  Iteration: 9  ####
+Quantile Cutoff:  68108
+Sum of Weights:   0
+Mean Score:  22330,  Mean Counts:   19, Mean Diversity:  145
+Std Score:   929, Std Counts:     2, Std Diversity:     5
+Best Sequence of this Iteration: GRNNNNGBNCDN (Score:  65351, Counts:  121, Diversity:  261)
+Running Best: WBNVNNGSHDNB (Score: 116696, Counts:  283,  Diversity:  335)
+Config file:	 /home/jyang4/repos/DCLO/configs/stable_VAE2.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/stable_VAE2
+Device:	 cpu

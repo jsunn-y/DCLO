@@ -11,23 +11,26 @@ from src.encoding_utils import *
 
 class Oracle():
     """Maps from a degenerate mixed base library to the zs score distribtuion. Maintains mappings that have already been calculated."""
-    def __init__(self, data_config):
+    def __init__(self, data_config, opt_config):
         self.mappings = {}
         self.n_samples = data_config["samples"]
-        self.diversity_thresh = data_config["diversity_thresh"]
-        self.repeats = 80
-        self.num_workers = 85
+        self.sites = data_config["sites"]
+        self.diversity_thresh = opt_config["diversity_thresh"]
+        self.repeats = opt_config["num_repeats"]
+        self.num_workers = opt_config["num_workers"]
+        self.cutoff = 20**data_config["sites"]*(1- opt_config['top_fraction'])
 
         df = pd.read_csv("/home/jyang4/repos/DCLO/data/GB1_all_triad.csv")
         
         ranked_zs = df["Score"].rank(ascending=False)
         self.avg_zs = np.mean(ranked_zs)
+        
         #missing combos are now filled in 
         self.combo2zs_dict = dict(zip(df["Combo"].values, ranked_zs))
 
     def __encoding2nucleotides(self, encoding):
         """converts a numerical encoding of a mixed base library into its possible nucleotide sequences (sampled or fully iterated)"""
-        encoding = encoding.reshape((-1, 4))
+        encoding = encoding.reshape((-1, self.sites))
         #n_sites = encoding.shape[0]
         #seq = encoding2seq(encoding)
         
@@ -51,7 +54,7 @@ class Oracle():
                 bseqs.append(bseq)
         return bseqs
         
-        ### Use the code below if you want to iterate through all possibilities ###
+        ### Use the code below if you want to iterate through all possibilities ### does not work yet
         
         # #need to append all the sequences
         # self.seqs = []
@@ -63,9 +66,11 @@ class Oracle():
         #return self.seqs
     
     def __nucleotides2zs(self, bseqs):
-        #map nucleotides to their corresponding protein sequences
-        #map all protein sequences to their corresponding zero shot scores
-        #report the distribution
+        """
+        map nucleotides to their corresponding protein sequences
+        map all protein sequences to their corresponding zero shot scores
+        report stats about the distribution
+        """
         aaseqs = [Seq(seq).translate() for seq in bseqs]
         zs_scores = []
 
@@ -83,22 +88,26 @@ class Oracle():
         #return np.mean(zs_scores), 1/(np.var(zs_scores) + 1)
         #print(zs_scores)
         #print(np.mean(zs_scores))
+        zs_scores = np.array(zs_scores)
+        uniques = np.unique(zs_scores)
 
-        diversity = len(np.unique(zs_scores))
+        #treat it like all repeats are zero because they provide no value
+        zs_score_avg = np.sum(uniques)/self.n_samples
+        diversity = len(uniques)
+        counts = len(np.unique(zs_scores[zs_scores > self.cutoff]))
         #enforce a certain level of diversity 
         #no longer need to calculate the variance of the nucleotides, only the variance of the sampling
 
-        if diversity < self.diversity_thresh:
-            return 0, diversity
-        else:
-            return np.mean(zs_scores), diversity
+        #if diversity < self.diversity_thresh:
+        #    return 0, counts, diversity
+        return zs_score_avg, counts, diversity
     
     def predict(self, encodings): 
         self.encodings = encodings
         self.batch_size = encodings.shape[0]
         
         #run the repeated encoding calculations in parallel 
-        results = np.zeros((self.batch_size, 2, self.repeats))
+        results = np.zeros((self.batch_size, 3, self.repeats))
         with Pool(self.num_workers) as p:
             # with tqdm() as pbar:
             #     pbar = tqdm()
@@ -117,11 +126,6 @@ class Oracle():
         means = np.mean(results, axis = 2)
         vars =  np.var(results, axis = 2)
 
-        scores = means[:, 0]
-        diversities = means[:, 1]
-        score_vars = vars[:, 0]
-        diversity_vars = vars[:, 1]
-
         #all_results = np.zeros((self.batch_size, 2, self.repeats))
 
         ### Other option is to run each row in parallel ###
@@ -131,14 +135,14 @@ class Oracle():
         
         # all_results = np.array(all_results)
 
-        return scores, score_vars, diversities, diversity_vars
+        return means, vars
 
     def predictor(self, encoding):
         return self.__nucleotides2zs(self.__encoding2nucleotides(encoding))
 
     def predictor_all(self, myseed):
         np.random.seed(myseed)
-        results = np.zeros((self.batch_size, 2))
+        results = np.zeros((self.batch_size, 3))
         for i, row in enumerate(self.encodings):
             results[i, :] = self.__nucleotides2zs(self.__encoding2nucleotides(row))
         return results

@@ -1,0 +1,715 @@
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+Iteration:  1, Mean Score:  66375, Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+
+####  Iteration: 2  ####
+70494.21974609373
+[0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 1. 0. 1. 0. 0. 0. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0.
+ 1. 0. 0. 1. 0. 1. 1. 0. 0. 1. 0. 0. 1. 0. 1. 0. 0. 0. 1. 1. 1. 0. 0. 1.
+ 1. 0. 0. 0. 0. 0. 1. 0. 0. 1. 1. 1. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 1. 0.
+ 0. 0. 0. 1. 1. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 1. 0. 1. 1. 0. 1. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0.
+ 1. 1. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+ 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 1. 1. 0. 1. 0. 0. 1. 1.
+ 0. 1. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 1. 0. 0. 1. 1. 1. 1. 0. 1.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 1. 0. 0. 1. 1. 0. 0. 0. 1. 1. 0. 0.
+ 1. 1. 0. 1. 1. 1. 1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 1. 1. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 1. 0. 0. 1. 0. 0. 0. 1. 1. 1. 1.
+ 1. 1. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 0. 0. 0. 0. 1. 1. 1. 1.
+ 1. 1. 1. 0. 1. 0. 0. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1.
+ 1. 1. 1. 0. 1. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 1. 0. 1. 0. 1. 0. 0. 1.
+ 1. 0. 0. 1. 0. 0. 0. 1. 1. 1. 0. 0. 1. 1. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 1. 1. 0. 1. 1. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 1. 1. 0. 1. 0. 0. 0. 0. 1. 1. 0. 1. 0. 1. 0. 0. 1. 1. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1. 0. 1. 0.
+ 0. 0. 0. 1. 1. 1. 0. 0. 1. 0. 0. 0. 0. 1. 0. 1. 1. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 1. 1. 0. 0. 0. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 0. 1.]
+Iteration:  2, Mean Score:  65009, Mean Diversity:  261, Avg Std of Score:  2544
+Best Sequence of this Iteration: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 3  ####
+70494.21974609373
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+Iteration:  3, Mean Score:  54691, Mean Diversity:  295, Avg Std of Score:  2526
+Best Sequence of this Iteration: NNNDMNNNBNBS (Score:  74871, Diversity:  327)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 4  ####
+70494.21974609373
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+ 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Iteration:  4, Mean Score:  11858, Mean Diversity:   51, Avg Std of Score:  1114
+Best Sequence of this Iteration: TTSSABKMMRHM (Score: 115255, Diversity:  189)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 5  ####
+70494.21974609373
+[0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.
+ 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 1.
+ 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 1. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Iteration:  5, Mean Score:  61327, Mean Diversity:  307, Avg Std of Score:  2697
+Best Sequence of this Iteration: NBNVNNNVBNDB (Score:  80464, Diversity:  355)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 6  ####
+70494.21974609373
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Iteration:  6, Mean Score:   2057, Mean Diversity:   20, Avg Std of Score:   175
+Best Sequence of this Iteration: GHVARYKYRAHV (Score: 117464, Diversity:  132)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 7  ####
+70494.21974609373
+[0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 1.0000000e+000 1.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 1.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 1.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 3.3105553e-235
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 1.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 1.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 1.0000000e+000
+ 1.0000000e+000 1.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 1.0000000e+000 0.0000000e+000 0.0000000e+000 1.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 1.0000000e+000
+ 1.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 0.0000000e+000 0.0000000e+000 1.0000000e+000 0.0000000e+000
+ 1.0000000e+000 1.0000000e+000 0.0000000e+000 0.0000000e+000
+ 0.0000000e+000 1.0000000e+000 1.0000000e+000 0.0000000e+000]
+Iteration:  7, Mean Score:  65322, Mean Diversity:  304, Avg Std of Score:  2871
+Best Sequence of this Iteration: NBNNHNNVBNDH (Score:  76539, Diversity:  328)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 8  ####
+70494.21974609373
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Iteration:  8, Mean Score:      0, Mean Diversity:   27, Avg Std of Score:     0
+Best Sequence of this Iteration: TMSARCGYSASV (Score:      0, Diversity:   25)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375, Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+
+####  Iteration: 2  ####
+Quantile Cutoff:  70494
+Sum of Weights: 200
+Iteration:  2, Mean Score:  65009, Mean Diversity:  261, Avg Std of Score:  2544
+Best Sequence of this Iteration: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 3  ####
+Quantile Cutoff:  70494
+Sum of Weights:   7
+Iteration:  3, Mean Score:  54691, Mean Diversity:  295, Avg Std of Score:  2526
+Best Sequence of this Iteration: NNNDMNNNBNBS (Score:  74871, Diversity:  327)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+####  Iteration: 4  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375, Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+Epoch 500, recon_loss: 7294.1279, kl_div: 6.4756
+
+####  Iteration: 2  ####
+Quantile Cutoff:  70494
+Sum of Weights: 200
+Iteration:  2, Mean Score:  65009, Mean Diversity:  261, Avg Std of Score:  2544
+Best Sequence of this Iteration: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Epoch 500, recon_loss: 4281.4067, kl_div: 15.6688
+
+####  Iteration: 3  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375, Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+
+Epoch 01, recon_loss: 7752.0425, kl_div: 976.4484
+
+Epoch 500, recon_loss: 7294.1279, kl_div: 6.4756
+
+####  Iteration: 2  ####
+Quantile Cutoff:  70494
+Sum of Weights: 200
+Iteration:  2, Mean Score:  65009, Mean Diversity:  261, Avg Std of Score:  2544
+Best Sequence of this Iteration: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+
+Epoch 01, recon_loss: 4820.9961, kl_div: 563.3192
+
+Epoch 500, recon_loss: 4281.4067, kl_div: 15.6688
+
+####  Iteration: 3  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375, Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Diversity:  310)
+Epoch 01, recon_loss: 7752.0425, kl_div: 976.4484
+Epoch 500, recon_loss: 7294.1279, kl_div: 6.4756
+
+####  Iteration: 2  ####
+Quantile Cutoff:  70494
+Sum of Weights: 200
+Iteration:  2, Mean Score:  65009, Mean Diversity:  261, Avg Std of Score:  2544
+Best Sequence of this Iteration: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Epoch 01, recon_loss: 4820.9961, kl_div: 563.3192
+Epoch 500, recon_loss: 4281.4067, kl_div: 15.6688
+
+####  Iteration: 3  ####
+Quantile Cutoff:  70494
+Sum of Weights:   7
+Iteration:  3, Mean Score:  54691, Mean Diversity:  295, Avg Std of Score:  2526
+Best Sequence of this Iteration: NNNDMNNNBNBS (Score:  74871, Diversity:  327)
+Running Best: RHVVHNRGTNHH (Score: 125555, Diversity:  346)
+Epoch 01, recon_loss: 469.4475, kl_div: 38.3055
+Epoch 500, recon_loss: 202.4578, kl_div: 5.6682
+
+####  Iteration: 4  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375,  Mean Counts:   82,Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Counts:  220, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Counts:  220,  Diversity:  310)
+Epoch 01, recon_loss: 1938.0106, kl_div: 976.4484
+
+####  Iteration: 2  ####
+Quantile Cutoff:  70494
+Sum of Weights: 200
+Iteration:  2, Mean Score:  65009,  Mean Counts:   71,Mean Diversity:  261, Avg Std of Score:  2544
+Best Sequence of this Iteration: RHVVHNRGTNHH (Score: 125555, Counts:  278, Diversity:  346)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 2410.4980, kl_div: 563.3192
+
+####  Iteration: 3  ####
+Quantile Cutoff:  70494
+Sum of Weights:   7
+Iteration:  3, Mean Score:  54691,  Mean Counts:   59,Mean Diversity:  295, Avg Std of Score:  2526
+Best Sequence of this Iteration: NNNDMNNNBNBS (Score:  74871, Counts:  108, Diversity:  327)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 469.4475, kl_div: 38.3055
+
+####  Iteration: 4  ####
+Quantile Cutoff:  70494
+Sum of Weights:  28
+Iteration:  4, Mean Score:  11858,  Mean Counts:   15,Mean Diversity:   51, Avg Std of Score:  1114
+Best Sequence of this Iteration: TTSSABKMMRHM (Score: 115255, Counts:  131, Diversity:  189)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 1843.8942, kl_div: 191.8888
+
+####  Iteration: 5  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375,  Mean Counts:   82,Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Counts:  220, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Counts:  220,  Diversity:  310)
+Epoch 01, recon_loss: 1938.0106, kl_div: 976.4484
+Epoch 500, recon_loss: 1823.5320, kl_div: 6.4756
+
+####  Iteration: 2  ####
+Quantile Cutoff:  70494
+Sum of Weights: 200
+Iteration:  2, Mean Score:  65009,  Mean Counts:   71,Mean Diversity:  261, Avg Std of Score:  2544
+Best Sequence of this Iteration: RHVVHNRGTNHH (Score: 125555, Counts:  278, Diversity:  346)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 2410.4980, kl_div: 563.3192
+Epoch 500, recon_loss: 2140.7034, kl_div: 15.6688
+
+####  Iteration: 3  ####
+Quantile Cutoff:  70494
+Sum of Weights:   7
+Iteration:  3, Mean Score:  54691,  Mean Counts:   59,Mean Diversity:  295, Avg Std of Score:  2526
+Best Sequence of this Iteration: NNNDMNNNBNBS (Score:  74871, Counts:  108, Diversity:  327)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 469.4475, kl_div: 38.3055
+Epoch 500, recon_loss: 202.4578, kl_div: 5.6682
+
+####  Iteration: 4  ####
+Quantile Cutoff:  70494
+Sum of Weights:  28
+Iteration:  4, Mean Score:  11858,  Mean Counts:   15,Mean Diversity:   51, Avg Std of Score:  1114
+Best Sequence of this Iteration: TTSSABKMMRHM (Score: 115255, Counts:  131, Diversity:  189)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 1843.8942, kl_div: 191.8888
+Epoch 500, recon_loss: 1173.4419, kl_div: 22.5613
+
+####  Iteration: 5  ####
+Quantile Cutoff:  70494
+Sum of Weights:  57
+Iteration:  5, Mean Score:  61327,  Mean Counts:   79,Mean Diversity:  307, Avg Std of Score:  2697
+Best Sequence of this Iteration: NBNVNNNVBNDB (Score:  80464, Counts:  126, Diversity:  355)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 3804.8027, kl_div: 320.2945
+Epoch 500, recon_loss: 1065.9613, kl_div: 60.7995
+
+####  Iteration: 6  ####
+Quantile Cutoff:  70494
+Sum of Weights:  10
+Iteration:  6, Mean Score:   2057,  Mean Counts:    5,Mean Diversity:   20, Avg Std of Score:   175
+Best Sequence of this Iteration: GHVARYKYRAHV (Score: 117464, Counts:   71, Diversity:  132)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 663.0871, kl_div: 55.6116
+Epoch 500, recon_loss: 356.3109, kl_div: 7.7248
+
+####  Iteration: 7  ####
+Quantile Cutoff:  70494
+Sum of Weights: 150
+Iteration:  7, Mean Score:  65322,  Mean Counts:   96,Mean Diversity:  304, Avg Std of Score:  2871
+Best Sequence of this Iteration: NBNNHNNVBNDH (Score:  76539, Counts:  126, Diversity:  328)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Epoch 01, recon_loss: 725.7695, kl_div: 122.9639
+Epoch 500, recon_loss: 100.7156, kl_div: 25.6917
+
+####  Iteration: 8  ####
+Quantile Cutoff:  70494
+Sum of Weights:   0
+Iteration:  8, Mean Score:      0,  Mean Counts:    7,Mean Diversity:   27, Avg Std of Score:     0
+Best Sequence of this Iteration: TMSARCGYSASV (Score:      0, Counts:    8, Diversity:   25)
+Running Best: RHVVHNRGTNHH (Score: 125555, Counts:  278,  Diversity:  346)
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375,  Mean Counts:   82, Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Counts:  220, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Counts:  220,  Diversity:  310)
+Epoch 01, recon_loss: 1937.9766, kl_div: 978.4189
+Epoch 500, recon_loss: 1519.3315, kl_div: 3046.3738
+
+####  Iteration: 2  ####
+Quantile Cutoff:  67879
+Sum of Weights: 200
+Iteration:  2, Mean Score:  65938,  Mean Counts:   89, Mean Diversity:  308, Avg Std of Score:  2704
+Best Sequence of this Iteration: RHNHRCRDRDNY (Score: 109741, Counts:  160, Diversity:  362)
+Running Best: RBHWYHKVBKKS (Score: 123402, Counts:  220,  Diversity:  310)
+Epoch 01, recon_loss: 2437.5059, kl_div: 548.5210
+Epoch 500, recon_loss: 1668.1306, kl_div: 741.5260
+
+####  Iteration: 3  ####
+Quantile Cutoff:  67879
+Sum of Weights: 196
+Iteration:  3, Mean Score:  43299,  Mean Counts:   55, Mean Diversity:  128, Avg Std of Score:  2281
+Best Sequence of this Iteration: VDSWYARRSGTT (Score: 143925, Counts:  206, Diversity:  220)
+Running Best: VDSWYARRSGTT (Score: 143925, Counts:  206,  Diversity:  220)
+Epoch 01, recon_loss: 2276.7063, kl_div: 512.0871
+Epoch 500, recon_loss: 1615.1582, kl_div: 1022.2383
+
+####  Iteration: 4  ####
+Quantile Cutoff:  74223
+Sum of Weights: 200
+Iteration:  4, Mean Score:  73696,  Mean Counts:  110, Mean Diversity:  321, Avg Std of Score:  2828
+Best Sequence of this Iteration: VNHNHNGSBDNN (Score: 115856, Counts:  261, Diversity:  334)
+Running Best: VDSWYARRSGTT (Score: 143925, Counts:  206,  Diversity:  220)
+Epoch 01, recon_loss: 2411.1929, kl_div: 413.5728
+Epoch 500, recon_loss: 652.7996, kl_div: 1218.2068
+
+####  Iteration: 5  ####
+Quantile Cutoff:  74223
+Sum of Weights:  45
+Iteration:  5, Mean Score:  27558,  Mean Counts:   28, Mean Diversity:  105, Avg Std of Score:  1782
+Best Sequence of this Iteration: ASAKRTNRTMAC (Score: 102058, Counts:   41, Diversity:  122)
+Running Best: VDSWYARRSGTT (Score: 143925, Counts:  206,  Diversity:  220)
+Epoch 01, recon_loss: 2977.8589, kl_div: 268.7112
+Epoch 500, recon_loss: 1094.4780, kl_div: 1252.1427
+
+####  Iteration: 6  ####
+Quantile Cutoff:  78491
+Sum of Weights: 200
+Iteration:  6, Mean Score:  77372,  Mean Counts:  128, Mean Diversity:  291, Avg Std of Score:  2998
+Best Sequence of this Iteration: NHNNWNKBNDNN (Score:  92810, Counts:  176, Diversity:  306)
+Running Best: VDSWYARRSGTT (Score: 143925, Counts:  206,  Diversity:  220)
+Epoch 01, recon_loss: 2447.0347, kl_div: 395.1303
+Epoch 500, recon_loss: 293.5590, kl_div: 1298.8246
+
+####  Iteration: 7  ####
+Quantile Cutoff:  78491
+Sum of Weights:  11
+Iteration:  7, Mean Score:  24858,  Mean Counts:   11, Mean Diversity:  110, Avg Std of Score:   894
+Best Sequence of this Iteration: AKGKVCVRGMAC (Score:  95728, Counts:   29, Diversity:  113)
+Running Best: VDSWYARRSGTT (Score: 143925, Counts:  206,  Diversity:  220)
+Epoch 01, recon_loss: 707.0347, kl_div: 67.8955
+Epoch 500, recon_loss: 203.1617, kl_div: 319.2343
+
+####  Iteration: 8  ####
+Quantile Cutoff:  78491
+Sum of Weights: 188
+Iteration:  8, Mean Score:  74788,  Mean Counts:  119, Mean Diversity:  285, Avg Std of Score:  2893
+Best Sequence of this Iteration: NWNBDNKVNDNN (Score:  90588, Counts:  190, Diversity:  266)
+Running Best: VDSWYARRSGTT (Score: 143925, Counts:  206,  Diversity:  220)
+Epoch 01, recon_loss: 2007.9958, kl_div: 308.1347
+Epoch 500, recon_loss: 168.9473, kl_div: 989.5110
+
+####  Iteration: 9  ####
+Quantile Cutoff:  78491
+Sum of Weights:   1
+Iteration:  9, Mean Score:    872,  Mean Counts:    4, Mean Diversity:   37, Avg Std of Score:    69
+Best Sequence of this Iteration: GNGRVCNCGMWA (Score:  92755, Counts:  107, Diversity:  242)
+Running Best: VDSWYARRSGTT (Score: 143925, Counts:  206,  Diversity:  220)
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Iteration:  1, Mean Score:  66375,  Mean Counts:   82, Mean Diversity:  289, Avg Std of Score:  2612
+Best Sequence of this Iteration: RBHWYHKVBKKS (Score: 123402, Counts:  220, Diversity:  310)
+Running Best: RBHWYHKVBKKS (Score: 123402, Counts:  220,  Diversity:  310)
+Epoch 01, recon_loss: 1937.9930, kl_div: 977.2022
+Epoch 1000, recon_loss: 1470.8286, kl_div: 2472.3062
+
+####  Iteration: 2  ####
+Quantile Cutoff:  68426
+Sum of Weights: 200
+Iteration:  2, Mean Score:  64851,  Mean Counts:   83, Mean Diversity:  300, Avg Std of Score:  2674
+Best Sequence of this Iteration: NBVMRWNKNSWN (Score:  98169, Counts:  143, Diversity:  332)
+Running Best: RBHWYHKVBKKS (Score: 123402, Counts:  220,  Diversity:  310)
+Epoch 01, recon_loss: 2411.6431, kl_div: 565.2760
+Epoch 1000, recon_loss: 1692.3285, kl_div: 922.4780
+
+####  Iteration: 3  ####
+Quantile Cutoff:  78721
+Sum of Weights: 200
+Iteration:  3, Mean Score:  71405,  Mean Counts:   87, Mean Diversity:  247, Avg Std of Score:  2720
+Best Sequence of this Iteration: RSNMWCSWDGTY (Score: 131510, Counts:   90, Diversity:  108)
+Running Best: RSNMWCSWDGTY (Score: 131510, Counts:   90,  Diversity:  108)
+Epoch 01, recon_loss: 2418.8459, kl_div: 611.2903
+Epoch 1000, recon_loss: 1621.2512, kl_div: 1296.6438
+
+####  Iteration: 4  ####
+Quantile Cutoff:  78721
+Sum of Weights:  53
+Iteration:  4, Mean Score:  68103,  Mean Counts:   92, Mean Diversity:  314, Avg Std of Score:  2717
+Best Sequence of this Iteration: VWBVDNVDNNHH (Score:  97302, Counts:  144, Diversity:  369)
+Running Best: RSNMWCSWDGTY (Score: 131510, Counts:   90,  Diversity:  108)
+Epoch 01, recon_loss: 3540.6499, kl_div: 326.7874
+Epoch 1000, recon_loss: 1510.5503, kl_div: 758.6346
+
+####  Iteration: 5  ####
+Quantile Cutoff:  78721
+Sum of Weights:  96
+Iteration:  5, Mean Score:  47307,  Mean Counts:   50, Mean Diversity:  171, Avg Std of Score:  3143
+Best Sequence of this Iteration: WBTHSKGVDGBV (Score: 119233, Counts:  138, Diversity:  209)
+Running Best: RSNMWCSWDGTY (Score: 131510, Counts:   90,  Diversity:  108)
+Epoch 01, recon_loss: 6520.9922, kl_div: 668.0453
+Epoch 1000, recon_loss: 2364.1572, kl_div: 1122.5659
+
+####  Iteration: 6  ####
+Quantile Cutoff:  78721
+Sum of Weights: 106
+Iteration:  6, Mean Score:  75433,  Mean Counts:  109, Mean Diversity:  319, Avg Std of Score:  2763
+Best Sequence of this Iteration: BTNDHNNBHNYW (Score:  98522, Counts:  181, Diversity:  328)
+Running Best: RSNMWCSWDGTY (Score: 131510, Counts:   90,  Diversity:  108)
+Epoch 01, recon_loss: 6992.1011, kl_div: 636.4505
+Epoch 1000, recon_loss: 1123.7773, kl_div: 1198.9976
+
+####  Iteration: 7  ####
+Quantile Cutoff: 114819
+Sum of Weights: 200
+Iteration:  7, Mean Score: 100509,  Mean Counts:   82, Mean Diversity:  177, Avg Std of Score:  5037
+Best Sequence of this Iteration: GDGMRCGSMABV (Score: 143408, Counts:   98, Diversity:  110)
+Running Best: GDGMRCGSMABV (Score: 143408, Counts:   98,  Diversity:  110)
+Epoch 01, recon_loss: 2375.1987, kl_div: 444.3818
+Epoch 1000, recon_loss: 286.0751, kl_div: 679.1222
+
+####  Iteration: 8  ####
+Quantile Cutoff: 114819
+Sum of Weights:   0
+Iteration:  8, Mean Score:  69081,  Mean Counts:   92, Mean Diversity:  335, Avg Std of Score:  2713
+Best Sequence of this Iteration: NYNBBNNKBNHW (Score:  80553, Counts:  123, Diversity:  351)
+Running Best: GDGMRCGSMABV (Score: 143408, Counts:   98,  Diversity:  110)

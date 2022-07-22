@@ -31,6 +31,7 @@ def get_samples(Xt_p):
             choice = boolean*1
             if sum(choice == 0):
                 # this is getting triggered at every site
+                # if everything is zero, make the biggest probability 1
                 choice[np.argmax(probs)] = 1
             Xt_sampled[i, 4*j:4*(j+1)] = choice
     return Xt_sampled

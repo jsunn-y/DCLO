@@ -31,7 +31,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
     samples = opt_config["samples"]
     uncertainty = opt_config["uncertainty"]
 
-    traj = np.zeros((iters, 7))
+    traj = np.zeros((iters, 10))
     oracle_samples = np.zeros((iters, samples))
     gt_samples = np.zeros((iters, samples))
     oracle_max_seq = None
@@ -40,7 +40,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
     y_star = -np.inf  
 
     np.random.seed(opt_config['seed'])
-    oracle = Oracle(data_config)
+    oracle = Oracle(data_config, opt_config)
 
     for t in range(iters):
         print('\n####  Iteration: ' + str(t+1) + '  ####')
@@ -57,11 +57,20 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
             # Xt = np.concatenate((Xt_new, Xt), axis = 0)
             # print(Xt.shape)
         else:
+            #np.random.seed(opt_config['seed'] + t)
             Xt = get_init_samples(samples, sites)
         
         ### Evaluate ground truth and oracle ###
 
-        yt, yt_var, div, div_var = oracle.predict(Xt)
+        means, vars = oracle.predict(Xt)
+
+        yt = means[:, 0]
+        counts = means[:, 1]
+        div = means[:, 2]
+
+        yt_var = vars[:, 0]
+        counts_var = vars[:, 1]
+        div_var = vars[:, 2]
         
         ### Calculate weights for different schemes ###
         if t > 0:
@@ -72,7 +81,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
             if y_star_1 > y_star:
                 y_star = y_star_1
 
-            print(y_star)
+            print('Quantile Cutoff: %6.0f' % y_star)
             #uses the survival function (1 - cdf), shouldn't it be the opposite?
             #find what fraction of samples lie above y_star if the zs_distribution was modelled as a standard normal
             ###in the original paper, highly uncertain weights are penalized###
@@ -86,7 +95,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         else:
             weights = np.ones(yt.shape[0])
 
-        print(weights)
+        print('Sum of Weights: %3.0f' % np.sum(np.sum(weights)))
 
         yt_max_idx = np.argmax(yt)
         yt_max = yt[yt_max_idx]
@@ -94,6 +103,7 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         if yt_max > oracle_max:
             oracle_max = yt_max
             div_max = div[yt_max_idx]
+            counts_max = counts[yt_max_idx]
             try:
                 oracle_max_seq = encoding2seq(Xt[yt_max_idx])
             except IndexError:
@@ -110,18 +120,26 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         #Keep track of training statistics
         traj[t, 0] = np.max(yt)
         traj[t, 1] = np.mean(yt)
+        
+        #for now just use the counts for the other max
+        traj[t, 2] = counts[yt_max_idx]
+        traj[t, 3] = np.mean(counts)
 
-        traj[t, 2] = div[yt_max_idx]
-        traj[t, 3] = np.mean(div)
-        traj[t, 4] = np.std(yt)
-        traj[t, 5] = np.mean(np.sqrt(yt_var))
+        traj[t, 4] = div[yt_max_idx]
+        traj[t, 5] = np.mean(div)
+        traj[t, 6] = np.std(yt)
+
+        traj[t, 7] = np.mean(np.sqrt(yt_var))
+        traj[t, 8] = np.mean(np.sqrt(counts_var))
+        traj[t, 9] = np.mean(np.sqrt(div_var))
         
         ### Record and print results ##
         if verbose:
-            print("Iteration: %2d, Mean Score: %6.0f, Mean Diversity: %4.0f, Avg Std of Score: %5.0f" % (t+1, traj[t, 1], traj[t, 3], traj[t, 5]))
-            print("Best Sequence of this Iteration: %s (Score: %6.0f, Diversity: %4.0f)" % (encoding2seq(Xt[yt_max_idx]), traj[t, 0], traj[t, 2]))
+            print("Mean Score: %6.0f,  Mean Counts: %4.0f, Mean Diversity: %4.0f" % (traj[t, 1], traj[t, 3], traj[t, 5]))
+            print("Std Score: %5.0f, Std Counts: %5.0f, Std Diversity: %5.0f" % (traj[t, 7], traj[t, 8], traj[t, 9]))
+            print("Best Sequence of this Iteration: %s (Score: %6.0f, Counts: %4.0f, Diversity: %4.0f)" % (encoding2seq(Xt[yt_max_idx]), traj[t, 0], traj[t, 2], traj[t, 4]))
 
-            print("Running Best: %s (Score: %6.0f, Diversity: %4.0f)" % (oracle_max_seq,oracle_max, div_max))
+            print("Running Best: %s (Score: %6.0f, Counts: %4.0f,  Diversity: %4.0f)" % (oracle_max_seq,oracle_max, counts_max, div_max))
             
             # print(t, traj[t, 3], color.BOLD + str(traj[t, 4]) + color.END, traj[t, 5], traj[t, 6])
         

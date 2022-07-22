@@ -1,0 +1,260 @@
+Config file:	 /home/jyang4/repos/DCLO/configs/no_VAE.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/no_VAE
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 863.5383, kl_div: 1119.8311
+Epoch 250, recon_loss: 749.4702, kl_div: 1126.8030
+
+####  Iteration: 2  ####
+Quantile Cutoff:  62633
+Sum of Weights: 400
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 265.5818, kl_div: 177.8067
+Epoch 250, recon_loss: 248.9360, kl_div: 56.7354
+
+####  Iteration: 3  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/no_VAE.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/no_VAE
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 863.5383, kl_div: 1119.8311
+Epoch 250, recon_loss: 749.4702, kl_div: 1126.8030
+
+####  Iteration: 2  ####
+Quantile Cutoff:  62633
+Sum of Weights: 400
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 265.5818, kl_div: 177.8067
+Epoch 250, recon_loss: 248.9360, kl_div: 56.7354
+
+####  Iteration: 3  ####
+Quantile Cutoff:  62633
+Sum of Weights: 400
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 265.5818, kl_div: 177.8067
+Epoch 250, recon_loss: 248.9360, kl_div: 56.7354
+
+####  Iteration: 4  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/no_VAE.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/no_VAE
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  60169,  Mean Counts:   82, Mean Diversity:  288
+Std Score:  2468, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: NNHNKDKSDSWD (Score: 108748, Counts:  252, Diversity:  304)
+Running Best: NNHNKDKSDSWD (Score: 108748, Counts:  252,  Diversity:  304)
+Epoch 01, recon_loss: 861.7200, kl_div: 1195.3119
+Epoch 250, recon_loss: 742.2639, kl_div: 1221.8593
+
+####  Iteration: 2  ####
+Quantile Cutoff:  62787
+Sum of Weights: 400
+Mean Score:  59543,  Mean Counts:   81, Mean Diversity:  287
+Std Score:  2450, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: RBMSDNDVHNYV (Score: 103875, Counts:  210, Diversity:  337)
+Running Best: NNHNKDKSDSWD (Score: 108748, Counts:  252,  Diversity:  304)
+Epoch 01, recon_loss: 282.1427, kl_div: 188.1788
+Epoch 250, recon_loss: 255.5434, kl_div: 76.2106
+
+####  Iteration: 3  ####
+Quantile Cutoff:  62787
+Sum of Weights: 396
+Mean Score:  59253,  Mean Counts:   80, Mean Diversity:  288
+Std Score:  2451, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: VBMNKRDSKRNS (Score: 104862, Counts:  210, Diversity:  341)
+Running Best: NNHNKDKSDSWD (Score: 108748, Counts:  252,  Diversity:  304)
+Epoch 01, recon_loss: 199.3941, kl_div: 130.2110
+Epoch 250, recon_loss: 184.3321, kl_div: 41.3308
+
+####  Iteration: 4  ####
+Quantile Cutoff:  62787
+Sum of Weights: 382
+Mean Score:  59300,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2461, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: WYKRRVKSKDNV (Score: 114908, Counts:  264, Diversity:  325)
+Running Best: WYKRRVKSKDNV (Score: 114908, Counts:  264,  Diversity:  325)
+Epoch 01, recon_loss: 2793.6394, kl_div: 1426.6785
+Epoch 250, recon_loss: 2564.7185, kl_div: 289.0856
+
+####  Iteration: 5  ####
+Quantile Cutoff:  62787
+Sum of Weights: 394
+Mean Score:  59761,  Mean Counts:   82, Mean Diversity:  287
+Std Score:  2462, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: VWNHRSSRWNYB (Score: 103170, Counts:  206, Diversity:  333)
+Running Best: WYKRRVKSKDNV (Score: 114908, Counts:  264,  Diversity:  325)
+Epoch 01, recon_loss: 182.9088, kl_div: 118.0862
+Epoch 250, recon_loss: 164.3110, kl_div: 38.2934
+
+####  Iteration: 6  ####
+Quantile Cutoff:  63943
+Sum of Weights: 400
+Mean Score:  60300,  Mean Counts:   83, Mean Diversity:  287
+Std Score:  2467, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: MWMNWYRSBRVB (Score: 115876, Counts:  247, Diversity:  340)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 267.1128, kl_div: 169.0125
+Epoch 250, recon_loss: 243.4293, kl_div: 52.8640
+
+####  Iteration: 7  ####
+Quantile Cutoff:  63943
+Sum of Weights: 379
+Mean Score:  59765,  Mean Counts:   81, Mean Diversity:  288
+Std Score:  2447, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: KBBVWVDVHRYB (Score: 112376, Counts:  227, Diversity:  333)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 2716.7183, kl_div: 1379.2512
+Epoch 250, recon_loss: 2495.8359, kl_div: 327.0558
+
+####  Iteration: 8  ####
+Quantile Cutoff:  63943
+Sum of Weights: 395
+Mean Score:  60347,  Mean Counts:   83, Mean Diversity:  289
+Std Score:  2458, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: MNVMWSNSBDYR (Score: 104891, Counts:  218, Diversity:  357)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 183.8329, kl_div: 110.0626
+Epoch 250, recon_loss: 168.4652, kl_div: 32.8924
+
+####  Iteration: 9  ####
+Quantile Cutoff:  63943
+Sum of Weights: 391
+Mean Score:  60559,  Mean Counts:   83, Mean Diversity:  290
+Std Score:  2473, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: DBKWBNRSSKNY (Score: 114071, Counts:  232, Diversity:  344)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 115.4337, kl_div: 67.2376
+Epoch 250, recon_loss: 107.7936, kl_div: 24.0736
+
+####  Iteration: 10  ####
+Quantile Cutoff:  63943
+Sum of Weights: 364
+Mean Score:  59622,  Mean Counts:   81, Mean Diversity:  287
+Std Score:  2445, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: RHWNDHSRSDHS (Score: 104657, Counts:  191, Diversity:  334)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 2393.3362, kl_div: 1271.1488
+Epoch 250, recon_loss: 2200.3772, kl_div: 287.2567
+
+####  Iteration: 11  ####
+Quantile Cutoff:  63943
+Sum of Weights: 369
+Mean Score:  60221,  Mean Counts:   83, Mean Diversity:  288
+Std Score:  2472, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: VRMDSBRSHKNB (Score: 104852, Counts:  208, Diversity:  334)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 2504.9683, kl_div: 1357.9247
+Epoch 250, recon_loss: 2279.0940, kl_div: 354.3459
+
+####  Iteration: 12  ####
+Quantile Cutoff:  63943
+Sum of Weights: 362
+Mean Score:  59486,  Mean Counts:   81, Mean Diversity:  287
+Std Score:  2462, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: BNSMWVRSYNDY (Score: 111626, Counts:  228, Diversity:  352)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 2369.9055, kl_div: 1324.9019
+Epoch 250, recon_loss: 2148.1467, kl_div: 304.3268
+
+####  Iteration: 13  ####
+Quantile Cutoff:  63943
+Sum of Weights: 375
+Mean Score:  60365,  Mean Counts:   83, Mean Diversity:  289
+Std Score:  2458, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: VRSDYHDSSRMM (Score: 104540, Counts:  194, Diversity:  341)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 2630.5427, kl_div: 1374.7773
+Epoch 250, recon_loss: 2395.1814, kl_div: 307.4998
+
+####  Iteration: 14  ####
+Quantile Cutoff:  63943
+Sum of Weights: 379
+Mean Score:  59857,  Mean Counts:   82, Mean Diversity:  286
+Std Score:  2451, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: VDSWKSSKNRYH (Score: 105206, Counts:  183, Diversity:  336)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 2725.0515, kl_div: 1436.6923
+Epoch 250, recon_loss: 2501.7065, kl_div: 297.9364
+
+####  Iteration: 15  ####
+Quantile Cutoff:  63943
+Sum of Weights: 382
+Mean Score:  59850,  Mean Counts:   82, Mean Diversity:  286
+Std Score:  2474, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: NKKNRYRVMRNB (Score: 114869, Counts:  217, Diversity:  370)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 2783.7927, kl_div: 1502.1820
+Epoch 250, recon_loss: 2544.5198, kl_div: 278.4392
+
+####  Iteration: 16  ####
+Quantile Cutoff:  63943
+Sum of Weights: 400
+Mean Score:  60336,  Mean Counts:   83, Mean Diversity:  289
+Std Score:  2451, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: DYHDWYRVSKNW (Score: 105380, Counts:  207, Diversity:  318)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 264.3321, kl_div: 160.4340
+Epoch 250, recon_loss: 241.2665, kl_div: 49.9424
+
+####  Iteration: 17  ####
+Quantile Cutoff:  64064
+Sum of Weights: 400
+Mean Score:  60895,  Mean Counts:   86, Mean Diversity:  287
+Std Score:  2485, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: NHHSWSRSVDNY (Score: 113195, Counts:  226, Diversity:  353)
+Running Best: MWMNWYRSBRVB (Score: 115876, Counts:  247,  Diversity:  340)
+Epoch 01, recon_loss: 279.5741, kl_div: 203.7739
+Epoch 250, recon_loss: 237.5513, kl_div: 45.2989
+
+####  Iteration: 18  ####
+Quantile Cutoff:  64064
+Sum of Weights: 350
+Mean Score:  59080,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2455, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SWWDNHRSYRWB (Score: 118372, Counts:  267, Diversity:  327)
+Running Best: SWWDNHRSYRWB (Score: 118372, Counts:  267,  Diversity:  327)
+Epoch 01, recon_loss: 2081.9758, kl_div: 1080.7942
+Epoch 250, recon_loss: 1876.5483, kl_div: 309.0782
+
+####  Iteration: 19  ####
+Quantile Cutoff:  64064
+Sum of Weights: 394
+Mean Score:  60249,  Mean Counts:   82, Mean Diversity:  289
+Std Score:  2458, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: DYKRHNVKSRYV (Score: 108201, Counts:  195, Diversity:  342)
+Running Best: SWWDNHRSYRWB (Score: 118372, Counts:  267,  Diversity:  327)
+Epoch 01, recon_loss: 166.0815, kl_div: 96.3903
+Epoch 250, recon_loss: 149.1914, kl_div: 35.9752
+
+####  Iteration: 20  ####
+Quantile Cutoff:  64064
+Sum of Weights: 357
+Mean Score:  59921,  Mean Counts:   81, Mean Diversity:  288
+Std Score:  2448, Std Counts:     7, Std Diversity:     7
+Best Sequence of this Iteration: MNKRHNKBKRWN (Score: 107125, Counts:  205, Diversity:  362)
+Running Best: SWWDNHRSYRWB (Score: 118372, Counts:  267,  Diversity:  327)
+Epoch 01, recon_loss: 2234.2131, kl_div: 1243.3486
+Epoch 250, recon_loss: 2043.8242, kl_div: 255.5739

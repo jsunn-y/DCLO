@@ -200,3 +200,295 @@ Best Sequence of this Iteration: VNNNHNNBNGHN (Score:  88547, Counts:  161, Dive
 Running Best: HNYNDNGVDVHW (Score: 106650, Counts:  215,  Diversity:  349)
 Epoch 01, recon_loss: 165.2097, kl_div: 74.3147
 Epoch 50, recon_loss: 142.0318, kl_div: 33.5398
+Config file:	 /home/jyang4/repos/DCLO/configs/VAE_short.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/VAE_short
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 863.5633, kl_div: 1118.6167
+
+####  Iteration: 2  ####
+Quantile Cutoff:  66391
+Sum of Weights: 400
+Mean Score:  66268,  Mean Counts:   92, Mean Diversity:  317
+Std Score:  2761, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: VDNNNNNVNNHN (Score:  80268, Counts:  138, Diversity:  328)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 263.0604, kl_div: 113.8583
+
+####  Iteration: 3  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/VAE_short.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/VAE_short
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 863.5633, kl_div: 1118.6167
+Epoch 10, recon_loss: 855.5876, kl_div: 757.6722
+
+####  Iteration: 2  ####
+Quantile Cutoff:  67280
+Sum of Weights: 400
+Mean Score:  66441,  Mean Counts:   92, Mean Diversity:  318
+Std Score:  2752, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: VDNDNNNBNDNN (Score:  83222, Counts:  135, Diversity:  329)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 279.6157, kl_div: 119.3163
+Epoch 10, recon_loss: 275.2198, kl_div: 70.5781
+
+####  Iteration: 3  ####
+Quantile Cutoff:  67280
+Sum of Weights: 371
+Mean Score:  66387,  Mean Counts:   92, Mean Diversity:  318
+Std Score:  2763, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: VDNNNNNBNDNN (Score:  80326, Counts:  131, Diversity:  336)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 2557.9636, kl_div: 870.2634
+Epoch 10, recon_loss: 2507.9734, kl_div: 606.2802
+
+####  Iteration: 4  ####
+Quantile Cutoff:  67280
+Sum of Weights: 353
+Mean Score:  66404,  Mean Counts:   92, Mean Diversity:  318
+Std Score:  2756, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: VDNNNNNVNNHN (Score:  80528, Counts:  138, Diversity:  329)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 2130.3376, kl_div: 760.8282
+Epoch 10, recon_loss: 2099.8606, kl_div: 478.7184
+
+####  Iteration: 5  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/VAE_short.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/VAE_short
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 863.5633, kl_div: 1118.6167
+Epoch 10, recon_loss: 855.5876, kl_div: 757.6722
+
+####  Iteration: 2  ####
+Quantile Cutoff:  66336
+Sum of Weights: 800
+Mean Score:  62979,  Mean Counts:   87, Mean Diversity:  302
+Std Score:  2613, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102511, Counts:  206, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 311.8629, kl_div: 342.7996
+Epoch 10, recon_loss: 302.8857, kl_div: 195.5195
+
+####  Iteration: 3  ####
+Quantile Cutoff:  69181
+Sum of Weights: 721
+Mean Score:  68967,  Mean Counts:   99, Mean Diversity:  318
+Std Score:  2750, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102850, Counts:  207, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 902.4863, kl_div: 936.0271
+Epoch 10, recon_loss: 879.1052, kl_div: 584.4902
+
+####  Iteration: 4  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/VAE_short.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/VAE_short
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 863.5633, kl_div: 1118.6167
+Epoch 10, recon_loss: 855.5876, kl_div: 757.6722
+
+####  Iteration: 2  ####
+Quantile Cutoff:  66336
+Sum of Weights: 800
+Mean Score:  62979,  Mean Counts:   87, Mean Diversity:  302
+Std Score:  2613, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102511, Counts:  206, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 311.8629, kl_div: 342.7996
+Epoch 10, recon_loss: 302.8857, kl_div: 195.5195
+
+####  Iteration: 3  ####
+Quantile Cutoff:  69181
+Sum of Weights: 721
+Mean Score:  68967,  Mean Counts:   99, Mean Diversity:  318
+Std Score:  2750, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102850, Counts:  207, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 902.4863, kl_div: 936.0271
+Epoch 10, recon_loss: 879.1052, kl_div: 584.4902
+
+####  Iteration: 4  ####
+Quantile Cutoff:  70119
+Sum of Weights: 689
+Mean Score:  69587,  Mean Counts:  101, Mean Diversity:  319
+Std Score:  2764, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102749, Counts:  208, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 554.5179, kl_div: 519.4990
+Epoch 10, recon_loss: 553.4984, kl_div: 330.5708
+
+####  Iteration: 5  ####
+Quantile Cutoff:  70828
+Sum of Weights: 676
+Mean Score:  69874,  Mean Counts:  102, Mean Diversity:  319
+Std Score:  2771, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102847, Counts:  207, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 428.9801, kl_div: 392.4803
+Epoch 10, recon_loss: 420.0721, kl_div: 279.7343
+
+####  Iteration: 6  ####
+Quantile Cutoff:  71351
+Sum of Weights: 672
+Mean Score:  70062,  Mean Counts:  102, Mean Diversity:  319
+Std Score:  2758, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102905, Counts:  208, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 351.8703, kl_div: 292.9135
+Epoch 10, recon_loss: 345.0826, kl_div: 186.5984
+
+####  Iteration: 7  ####
+Quantile Cutoff:  71794
+Sum of Weights: 669
+Mean Score:  70177,  Mean Counts:  103, Mean Diversity:  320
+Std Score:  2765, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102115, Counts:  206, Diversity:  338)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 329.8056, kl_div: 325.3501
+Epoch 10, recon_loss: 323.4640, kl_div: 205.2186
+
+####  Iteration: 8  ####
+Quantile Cutoff:  72011
+Sum of Weights: 668
+Mean Score:  70300,  Mean Counts:  103, Mean Diversity:  320
+Std Score:  2765, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102317, Counts:  206, Diversity:  338)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 309.2378, kl_div: 253.1301
+Epoch 10, recon_loss: 312.7928, kl_div: 195.1332
+
+####  Iteration: 9  ####
+Quantile Cutoff:  72320
+Sum of Weights: 668
+Mean Score:  70385,  Mean Counts:  103, Mean Diversity:  320
+Std Score:  2768, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102044, Counts:  206, Diversity:  337)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 308.0052, kl_div: 282.3444
+Epoch 10, recon_loss: 301.7296, kl_div: 176.4538
+
+####  Iteration: 10  ####
+Quantile Cutoff:  72457
+Sum of Weights: 667
+Mean Score:  70449,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2774, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102305, Counts:  207, Diversity:  338)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 309.0827, kl_div: 262.8555
+Epoch 10, recon_loss: 301.7184, kl_div: 211.2158
+
+####  Iteration: 11  ####
+Quantile Cutoff:  72623
+Sum of Weights: 668
+Mean Score:  70487,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2777, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102608, Counts:  206, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 331.1420, kl_div: 289.4293
+Epoch 10, recon_loss: 322.9093, kl_div: 206.3574
+
+####  Iteration: 12  ####
+Quantile Cutoff:  72799
+Sum of Weights: 668
+Mean Score:  70536,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2776, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102617, Counts:  208, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 319.5852, kl_div: 253.5403
+Epoch 10, recon_loss: 313.5156, kl_div: 185.4931
+
+####  Iteration: 13  ####
+Quantile Cutoff:  72974
+Sum of Weights: 668
+Mean Score:  70578,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2782, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102623, Counts:  207, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 308.7559, kl_div: 251.6636
+Epoch 10, recon_loss: 301.1720, kl_div: 209.6102
+
+####  Iteration: 14  ####
+Quantile Cutoff:  73081
+Sum of Weights: 667
+Mean Score:  70629,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2771, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103009, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 319.9601, kl_div: 317.2103
+Epoch 10, recon_loss: 312.9684, kl_div: 192.0995
+
+####  Iteration: 15  ####
+Quantile Cutoff:  73384
+Sum of Weights: 668
+Mean Score:  70662,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2763, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102591, Counts:  207, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 308.7629, kl_div: 280.7738
+Epoch 10, recon_loss: 302.5585, kl_div: 183.1019
+
+####  Iteration: 16  ####
+Quantile Cutoff:  73510
+Sum of Weights: 667
+Mean Score:  70723,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2775, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102341, Counts:  206, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 320.3867, kl_div: 283.2596
+Epoch 10, recon_loss: 313.0397, kl_div: 180.9445
+
+####  Iteration: 17  ####
+Quantile Cutoff:  73730
+Sum of Weights: 668
+Mean Score:  70749,  Mean Counts:  104, Mean Diversity:  320
+Std Score:  2778, Std Counts:     8, Std Diversity:     7
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 102702, Counts:  207, Diversity:  339)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 307.8687, kl_div: 319.8607
+Epoch 10, recon_loss: 302.1514, kl_div: 165.4118
+
+####  Iteration: 18  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/VAE_short.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/VAE_short
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 1000
+Mean Score:  59516,  Mean Counts:   81, Mean Diversity:  286
+Std Score:  2460, Std Counts:     7, Std Diversity:     8
+Best Sequence of this Iteration: SKVHNSVRHRHY (Score: 103069, Counts:  208, Diversity:  340)
+Running Best: SKVHNSVRHRHY (Score: 103069, Counts:  208,  Diversity:  340)
+Epoch 01, recon_loss: 864.6014, kl_div: 1119.0442
+Epoch 10, recon_loss: 857.8990, kl_div: 672.8823
+[11, 10, 10, 8, 10, 12, 11, 12, 12, 11, 10, 11, 11, 10, 12, 12, 9, 11, 12, 11, 11, 9, 10, 12, 11, 12, 10, 10, 10, 12, 10, 11, 11, 11, 10, 12, 9, 10, 11, 11, 12, 11, 12, 12, 9, 11, 12, 11, 12, 11, 10, 12, 11, 9, 11, 10, 11, 12, 11, 8, 10, 10, 12, 12, 11, 12, 12, 12, 11, 12, 10, 12, 12, 11, 11, 11, 12, 10, 12, 11, 11, 10, 12, 12, 9, 11, 11, 11, 12, 10, 10, 11, 10, 11, 10, 9, 11, 11, 11, 12, 10, 11, 10, 11, 12, 11, 9, 11, 12, 11, 11, 12, 12, 12, 12, 11, 12, 9, 11, 11, 9, 11, 11, 12, 11, 11, 10, 8, 9, 11, 11, 12, 10, 12, 12, 12, 9, 11, 11, 11, 11, 10, 12, 9, 12, 11, 12, 12, 12, 10, 10, 12, 10, 12, 12, 12, 11, 12, 12, 11, 12, 11, 12, 10, 12, 11, 11, 12, 9, 11, 11, 11, 12, 11, 12, 11, 11, 11, 9, 12, 10, 11, 12, 10, 10, 11, 12, 11, 10, 12, 10, 10, 10, 12, 10, 10, 12, 11, 9, 12, 11, 11, 9, 12, 12, 11, 11, 12, 10, 10, 12, 12, 11, 12, 12, 10, 12, 10, 10, 11, 11, 12, 12, 10, 12, 12, 10, 11, 12, 11, 12, 11, 11, 11, 10, 10, 11, 11, 12, 12, 12, 9, 10, 12, 11, 9, 12, 11, 11, 10, 11, 12, 11, 12, 12, 10, 12, 11, 12, 11, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 10, 10, 11, 12, 12, 11, 12, 12, 10, 10, 12, 12, 11, 10, 12, 12, 12, 9, 12, 12, 9, 11, 12, 9, 12, 10, 12, 12, 10, 11, 12, 12, 12, 10, 9, 12, 9, 12, 12, 10, 11, 11, 8, 10, 12, 12, 12, 12, 10, 11, 12, 12, 11, 11, 11, 10, 11, 10, 12, 12, 9, 9, 11, 11, 10, 12, 12, 11, 11, 11, 10, 11, 12, 11, 10, 12, 12, 11, 12, 11, 12, 12, 11, 12, 11, 12, 12, 10, 12, 12, 11, 12, 11, 12, 11, 11, 11, 11, 10, 12, 11, 12, 12, 12, 10, 12, 12, 10, 12, 11, 10, 11, 12, 11, 12, 10, 12, 12, 11, 12, 12, 12, 12, 10, 11, 12, 11, 12, 12, 12, 11, 12, 11, 10, 12, 11, 11, 10, 11, 12, 10, 11, 12, 11, 8, 10, 10, 12, 11, 11, 12, 12, 10, 12, 11, 8, 11, 11, 10, 11, 11, 12, 10, 10, 10, 12, 10, 11, 11, 12, 11, 11, 11, 10, 12, 11, 11, 12, 11, 12, 10, 10, 11, 11, 11, 11, 11, 11, 10, 12, 10, 12, 12, 12, 11, 12, 11, 11, 10, 11, 11, 11, 9, 11, 9, 12, 10, 12, 12, 8, 11, 12, 10, 10, 11, 12, 11, 12, 11, 10, 12, 12, 11, 11, 11, 10, 12, 12, 12, 12, 11, 12, 12, 12, 11, 11, 10, 11, 11, 12, 11, 8, 11, 11, 11, 10, 10, 12, 11, 11, 9, 8, 9, 11, 11, 10, 12, 11, 11, 11, 12, 12, 11, 11, 11, 11, 12, 11, 12, 12, 11, 12, 12, 12, 12, 11, 12, 12, 10, 11, 12, 12, 12, 12, 10, 12, 10, 12, 11, 11, 11, 9, 11, 12, 12, 12, 10, 10, 12, 11, 9, 12, 11, 11, 11, 8, 12, 11, 12, 10, 10, 12, 11, 11, 12, 11, 12, 11, 12, 9, 12, 10, 11, 11, 12, 12, 11, 11, 12, 12, 11, 12, 12, 11, 12, 12, 12, 12, 11, 10, 12, 12, 10, 9, 11, 12, 10, 12, 12, 10, 10, 11, 12, 10, 10, 10, 11, 12, 12, 12, 11, 12, 10, 9, 11, 11, 12, 11, 11, 10, 11, 10, 11, 10, 10, 11, 12, 11, 12, 11, 11, 12, 8, 11, 11, 11, 11, 11, 11, 11, 12, 11, 12, 12, 11, 11, 11, 12, 10, 11, 10, 12, 10, 11, 10, 12, 10, 12, 8, 9, 12, 11, 12, 12, 12, 11, 10, 12, 12, 9, 12, 12, 12, 12, 12, 12, 10, 12, 10, 12, 10, 11, 10, 11, 11, 12, 12, 12, 12, 11, 12, 11, 12, 10, 11, 10, 12, 11, 12, 12, 11, 12, 9, 12, 11, 11, 12, 10, 12, 10, 12, 11, 10, 11, 11, 12, 11, 11, 12, 11, 11, 12, 12, 10, 11, 11, 12, 11, 12, 10, 12, 12, 10, 11, 12, 12, 12, 11, 11, 11, 10, 9, 12, 11, 12, 12, 12, 12, 12, 12, 12, 12, 10, 11, 10, 10, 11, 11, 11, 11, 10, 12, 12, 11, 12, 10, 10, 11, 12, 12, 11, 11, 11, 10, 12, 12, 10, 9, 10, 12, 11, 11, 11, 10, 10, 12, 11, 11, 11, 11, 10, 11, 12, 10, 11, 11, 10, 12, 9, 11, 11, 10, 10, 12, 12, 11, 12, 12, 11, 10, 10, 12, 12, 10, 12, 12, 11, 9, 10, 11, 10, 11, 12, 9, 12, 12, 12, 11, 11, 11, 11, 10, 11, 11, 11, 11, 11, 11, 12, 11, 11, 9, 11, 12, 11, 10, 9, 10, 11, 10, 12, 12, 12, 12, 11, 11, 12, 11, 11, 10, 11, 12, 12, 10, 12, 12, 12, 10, 11, 11, 11, 11, 11, 10, 11, 10, 11, 11, 10, 10, 11, 11, 11, 12, 10, 10, 10, 10, 10, 10, 11, 12, 11, 11, 12, 10, 12, 12, 11, 12, 12, 12, 12, 11, 12, 12, 11, 10, 10, 11, 11, 12, 11, 12, 12, 10, 10, 11, 12, 11, 11, 11, 9, 12, 12, 9, 12, 11, 9, 12, 11, 12, 12, 12, 11, 8, 11, 12, 12, 10, 12, 12, 10, 10, 12, 10, 12, 10, 11, 9, 12, 10, 9, 12, 12, 11, 11, 12, 11, 12, 11, 10, 12, 12, 11, 12, 12, 11, 10, 11, 10, 12, 10, 12, 12, 12, 9, 12, 11]
+
+####  Iteration: 2  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/VAE_short.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/VAE_short
+Device:	 cuda:0

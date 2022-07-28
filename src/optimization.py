@@ -4,7 +4,7 @@ import torch
 from src.vae_model import VAE
 from src.oracle import Oracle
 from src.util import get_init_samples, get_samples, encoding2seq
-from src.train_vae import start_training
+from src.train_vae import start_training, evaluate
 
 
 class color:
@@ -47,9 +47,12 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
         ### Take random normal samples ###
         zt = np.random.randn(samples, vae_model_config['z_dim'])
         if t > 0:
-            Xt_p = vae.decode(torch.tensor(zt).float())
-            Xt_new = get_samples(Xt_p.detach().numpy())
-            Xt = Xt_new
+            Xt_p = vae.decode(torch.tensor(zt).float().to(device))
+            Xt_new = get_samples(Xt_p.detach().cpu().numpy())
+            if opt_config['append_new']:
+                Xt = np.concatenate((Xt_new, Xt), axis = 0)
+            else:
+                Xt = Xt_new
 
             #can train the VAE with all the samples or just the new ones
             #print(Xt.shape)
@@ -161,6 +164,9 @@ def run_dbas(save_path, data_config, vae_model_config, vae_train_config, opt_con
 
         #reset the weights?
         vae = start_training(Xt, save_path, data_config, vae_model_config, vae_train_config, device, weights)
+
+        print(evaluate(torch.tensor(Xt).float(), vae, device))
+
     
     max_dict = {'oracle_max' : oracle_max, 
                 'oracle_max_seq': oracle_max_seq,

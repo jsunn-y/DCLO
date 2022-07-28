@@ -1,0 +1,3 @@
+Config file:	 /home/jyang4/repos/DCLO/configs/execute.py
+Save directory:	 /home/jyang4/repos/DCLO/saved/execu
+Device:	 cpu

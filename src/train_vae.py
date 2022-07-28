@@ -8,6 +8,7 @@ import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader
 from tqdm.auto import tqdm
 from src.vae_model import VAE
+from src.encoding_utils import *
 
 def train(weights: np.array, model: nn.Module, device: torch.device, data_loader: DataLoader, pbar: tqdm) -> float:
     """Trains a VAE model.
@@ -37,6 +38,31 @@ def train(weights: np.array, model: nn.Module, device: torch.device, data_loader
         for key in model.losses: cum_losses[key] += model.losses[key]
 
     return cum_losses["reconst_loss"], cum_losses["kl_div"]
+
+def evaluate(Xt: torch.tensor, model: nn.Module, device: torch.device):
+    """
+    Evaluates the quality of the reconstructions of the VAE. Currently does not support GPU or batching since that would not really accelerate things.
+    """
+    model.eval()
+    with torch.no_grad():
+        Xt = Xt.to(device)
+        if model.variational:
+            mu, var = model.encode(Xt)
+        else:
+            mu = model.encode(Xt)
+        reconstructions = 1 * (torch.sigmoid(model.decode(mu)) > 0.5)
+    
+    original = []
+    new = []
+    differences = []
+    for row1, row2 in zip(Xt.detach().cpu().numpy(), reconstructions.detach().cpu().numpy()):
+        seq1 = encoding2seq(row1)
+        seq2 = encoding2seq(row2)
+        original.append(seq1)
+        new.append(seq2)
+        differences.append(hammingdistance(seq1, seq2))
+    
+    return differences
 
 def start_training(Xt, save_path, data_config, vae_model_config, vae_train_config, device, weights):
 

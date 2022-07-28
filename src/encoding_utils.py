@@ -8,6 +8,7 @@ index2base_dict = {
 }
 
 seq2encoding_dict = {
+    "Z": (0, 0, 0, 0),
     "A": (1, 0, 0, 0),
     "C": (0, 1, 0, 0),
     "G": (0, 0, 1, 0),
@@ -57,3 +58,6 @@ def seq2encoding(seq):
     for i, let in enumerate(seq):
         encoding[0, 4*i:4*(i+1)] = seq2encoding_dict[let]
     return encoding
+
+def hammingdistance(seq1, seq2):
+    return sum(s1 != s2 for s1, s2 in zip(seq1, seq2))

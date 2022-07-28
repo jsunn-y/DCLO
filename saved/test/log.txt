@@ -713,3 +713,282 @@ Sum of Weights:   0
 Iteration:  8, Mean Score:  69081,  Mean Counts:   92, Mean Diversity:  335, Avg Std of Score:  2713
 Best Sequence of this Iteration: NYNBBNNKBNHW (Score:  80553, Counts:  123, Diversity:  351)
 Running Best: GDGMRCGSMABV (Score: 143408, Counts:   98,  Diversity:  110)
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1937.9930, kl_div: 977.2022
+Epoch 1000, recon_loss: 1470.8286, kl_div: 2472.3062
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cpu
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1937.9930, kl_div: 977.2022
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1935.7656, kl_div: 977.4315
+Epoch 1000, recon_loss: 1485.6687, kl_div: 2400.7090
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1935.7656, kl_div: 977.4315
+Epoch 1000, recon_loss: 1485.6687, kl_div: 2400.7090
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1935.7656, kl_div: 977.4315
+Epoch 1000, recon_loss: 1485.6687, kl_div: 2400.7090
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1935.7656, kl_div: 977.4315
+Epoch 1000, recon_loss: 1485.6687, kl_div: 2400.7090
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1935.7656, kl_div: 977.4315
+Epoch 1000, recon_loss: 1485.6687, kl_div: 2400.7090
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1935.7656, kl_div: 977.4315
+Epoch 1000, recon_loss: 1485.6687, kl_div: 2400.7090
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1935.7656, kl_div: 977.4315
+Epoch 1000, recon_loss: 1485.6687, kl_div: 2400.7090
+[7, 10, 8, 6, 9, 9, 6, 8, 6, 8, 10, 10, 12, 9, 4, 11, 9, 9, 10, 10, 8, 11, 10, 8, 8, 7, 10, 8, 6, 11, 10, 10, 9, 9, 9, 9, 8, 7, 10, 11, 9, 6, 9, 9, 10, 7, 10, 6, 6, 9, 10, 12, 8, 7, 8, 6, 8, 9, 9, 9, 9, 9, 7, 7, 8, 7, 9, 8, 8, 7, 7, 9, 6, 8, 6, 7, 9, 9, 11, 7, 9, 11, 7, 10, 10, 8, 8, 7, 8, 9, 10, 10, 8, 9, 7, 8, 10, 7, 10, 7, 9, 10, 6, 10, 9, 10, 6, 10, 8, 10, 7, 8, 10, 8, 8, 7, 12, 7, 5, 10, 6, 8, 10, 8, 6, 7, 10, 8, 10, 10, 7, 7, 8, 9, 9, 8, 7, 3, 7, 10, 7, 8, 6, 9, 9, 8, 7, 8, 7, 6, 8, 10, 9, 10, 10, 7, 11, 10, 7, 6, 8, 9, 7, 9, 7, 7, 9, 7, 10, 10, 8, 9, 8, 10, 11, 7, 9, 9, 9, 10, 9, 10, 8, 8, 10, 10, 5, 6, 9, 8, 7, 10, 9, 10, 9, 9, 9, 8, 9, 7, 8, 7, 10, 8, 7, 10, 10, 10, 7, 9, 7, 9, 7, 10, 9, 7, 10, 9, 9, 10, 8, 7, 8, 8, 8, 5, 9, 8, 10, 11, 9, 4, 9, 9, 8, 10, 6, 8, 5, 10, 6, 10, 9, 9, 8, 7, 9, 9, 9, 9, 10, 7, 9, 8, 6, 9, 7, 10, 8, 10, 11, 9, 5, 11, 7, 8, 9, 9, 8, 10, 9, 8, 7, 8, 7, 9, 9, 5, 9, 8, 10, 10, 6, 6, 9, 9, 10, 7, 7, 11, 6, 7, 7, 8, 5, 7, 8, 10, 10, 10, 11, 5, 8, 10, 7, 12, 6, 9, 9, 7, 11, 9, 10, 7, 7, 6, 9, 9, 8, 8, 9, 8, 8, 9, 9, 10, 9, 7, 7, 10, 10, 8, 9, 11, 6, 10, 9, 9, 8, 10, 6, 9, 9, 9, 8, 8, 7, 7, 11, 7, 8, 10, 9, 8, 10, 9, 8, 7, 6, 6, 10, 6, 9, 11, 8, 9, 9, 8, 9, 7, 10, 8, 9, 11, 9, 9, 9, 8, 8, 10, 7, 10, 11, 8, 7, 7, 3, 8, 11, 7, 7, 9, 7, 6, 6, 9, 9, 8, 6, 9, 10, 8, 8, 9, 10, 9, 7, 9, 6, 8, 10, 8, 7, 10, 9, 9, 10, 7, 9, 8, 9, 10, 8, 8, 10, 11, 6, 10, 8, 6, 5, 7, 11, 9, 9, 12, 7, 9, 10, 7, 12, 9, 6, 9, 10, 9, 9, 8, 9, 8, 9, 7, 7, 10, 8, 8, 8, 6, 8, 9, 9, 8, 10, 9, 10, 9, 10, 6, 8, 6, 9, 9, 8, 10, 11, 7, 8, 10, 8, 7, 8, 11, 9, 10, 11, 9, 7, 8, 7, 10, 8, 10, 9, 12, 11, 6, 6, 9, 7, 8]
+
+####  Iteration: 2  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1932.2786, kl_div: 0.0000
+Epoch 1000, recon_loss: 1033.0857, kl_div: 0.0000
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1932.2786, kl_div: 0.0000
+Epoch 1000, recon_loss: 1033.0857, kl_div: 0.0000
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1932.2786, kl_div: 0.0000
+Epoch 1000, recon_loss: 1033.0857, kl_div: 0.0000
+[6, 4, 4, 6, 5, 6, 7, 6, 4, 6, 4, 7, 6, 7, 3, 9, 7, 5, 8, 7, 8, 4, 9, 7, 9, 8, 6, 6, 5, 8, 6, 6, 7, 6, 9, 8, 4, 7, 6, 9, 6, 7, 8, 9, 5, 9, 7, 8, 4, 5, 7, 8, 6, 6, 8, 6, 7, 6, 6, 3, 5, 6, 7, 5, 6, 4, 7, 9, 10, 5, 8, 10, 6, 8, 7, 6, 7, 9, 6, 3, 8, 4, 5, 6, 5, 6, 5, 6, 8, 10, 7, 3, 6, 7, 5, 5, 8, 6, 6, 4, 5, 9, 6, 6, 8, 7, 3, 6, 5, 10, 5, 6, 10, 8, 5, 5, 7, 7, 4, 7, 1, 9, 7, 6, 5, 6, 7, 6, 5, 6, 8, 4, 7, 6, 9, 6, 5, 4, 6, 6, 5, 3, 4, 4, 4, 4, 5, 5, 4, 4, 5, 6, 7, 7, 9, 10, 4, 5, 5, 5, 5, 5, 9, 8, 1, 5, 5, 3, 9, 5, 8, 7, 7, 6, 9, 4, 9, 4, 4, 7, 6, 5, 8, 8, 5, 7, 6, 5, 9, 9, 5, 7, 3, 7, 5, 7, 9, 8, 7, 5, 4, 3, 8, 4, 7, 9, 9, 6, 4, 7, 2, 8, 4, 9, 6, 6, 9, 8, 7, 5, 4, 4, 3, 7, 8, 7, 8, 8, 4, 6, 9, 4, 8, 9, 4, 6, 7, 6, 3, 6, 8, 5, 5, 8, 6, 8, 8, 5, 4, 6, 7, 9, 9, 6, 4, 6, 6, 9, 8, 6, 7, 7, 8, 6, 7, 3, 6, 9, 8, 6, 8, 8, 6, 5, 9, 5, 5, 2, 5, 7, 8, 6, 6, 7, 6, 6, 8, 5, 6, 7, 6, 6, 7, 8, 6, 7, 7, 9, 7, 8, 8, 7, 4, 10, 4, 7, 5, 5, 8, 5, 9, 7, 9, 6, 6, 4, 7, 8, 6, 6, 9, 7, 8, 8, 7, 9, 2, 9, 8, 6, 5, 4, 4, 7, 4, 5, 4, 6, 6, 6, 4, 10, 5, 6, 8, 7, 6, 7, 6, 9, 6, 7, 6, 8, 9, 5, 8, 5, 7, 2, 5, 8, 6, 5, 4, 5, 8, 9, 7, 4, 8, 6, 10, 10, 8, 6, 6, 5, 7, 7, 5, 8, 6, 11, 6, 8, 1, 5, 7, 7, 7, 7, 3, 4, 3, 5, 2, 6, 5, 5, 4, 7, 6, 9, 8, 5, 5, 9, 6, 6, 8, 10, 3, 5, 6, 8, 7, 2, 7, 2, 4, 5, 8, 6, 9, 7, 4, 7, 4, 6, 4, 7, 8, 7, 6, 10, 7, 6, 7, 7, 6, 7, 8, 6, 9, 6, 7, 3, 9, 4, 9, 5, 4, 5, 5, 6, 7, 7, 8, 7, 6, 5, 5, 6, 8, 6, 9, 5, 6, 4, 3, 7, 3, 9, 7, 4, 5, 8, 6, 4, 7, 11, 6, 9, 6, 4, 6, 4, 8, 5, 6, 11, 6, 7, 9, 4, 8, 5, 5, 5]
+
+####  Iteration: 2  ####
+Config file:	 /home/jyang4/repos/DCLO/configs/test.json
+Save directory:	 /home/jyang4/repos/DCLO/saved/test
+Device:	 cuda:0
+
+####  Iteration: 1  ####
+Sum of Weights: 500
+Mean Score:  60259,  Mean Counts:   81, Mean Diversity:  289
+Std Score:  1993, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105701, Counts:  207, Diversity:  355)
+Running Best: MHYVRMKVYRDS (Score: 105701, Counts:  207,  Diversity:  355)
+Epoch 01, recon_loss: 1932.2786, kl_div: 0.0000
+Epoch 1000, recon_loss: 1033.0857, kl_div: 0.0000
+[6, 4, 4, 6, 5, 6, 7, 6, 4, 6, 4, 7, 6, 7, 3, 9, 7, 5, 8, 7, 8, 4, 9, 7, 9, 8, 6, 6, 5, 8, 6, 6, 7, 6, 9, 8, 4, 7, 6, 9, 6, 7, 8, 9, 5, 9, 7, 8, 4, 5, 7, 8, 6, 6, 8, 6, 7, 6, 6, 3, 5, 6, 7, 5, 6, 4, 7, 9, 10, 5, 8, 10, 6, 8, 7, 6, 7, 9, 6, 3, 8, 4, 5, 6, 5, 6, 5, 6, 8, 10, 7, 3, 6, 7, 5, 5, 8, 6, 6, 4, 5, 9, 6, 6, 8, 7, 3, 6, 5, 10, 5, 6, 10, 8, 5, 5, 7, 7, 4, 7, 1, 9, 7, 6, 5, 6, 7, 6, 5, 6, 8, 4, 7, 6, 9, 6, 5, 4, 6, 6, 5, 3, 4, 4, 4, 4, 5, 5, 4, 4, 5, 6, 7, 7, 9, 10, 4, 5, 5, 5, 5, 5, 9, 8, 1, 5, 5, 3, 9, 5, 8, 7, 7, 6, 9, 4, 9, 4, 4, 7, 6, 5, 8, 8, 5, 7, 6, 5, 9, 9, 5, 7, 3, 7, 5, 7, 9, 8, 7, 5, 4, 3, 8, 4, 7, 9, 9, 6, 4, 7, 2, 8, 4, 9, 6, 6, 9, 8, 7, 5, 4, 4, 3, 7, 8, 7, 8, 8, 4, 6, 9, 4, 8, 9, 4, 6, 7, 6, 3, 6, 8, 5, 5, 8, 6, 8, 8, 5, 4, 6, 7, 9, 9, 6, 4, 6, 6, 9, 8, 6, 7, 7, 8, 6, 7, 3, 6, 9, 8, 6, 8, 8, 6, 5, 9, 5, 5, 2, 5, 7, 8, 6, 6, 7, 6, 6, 8, 5, 6, 7, 6, 6, 7, 8, 6, 7, 7, 9, 7, 8, 8, 7, 4, 10, 4, 7, 5, 5, 8, 5, 9, 7, 9, 6, 6, 4, 7, 8, 6, 6, 9, 7, 8, 8, 7, 9, 2, 9, 8, 6, 5, 4, 4, 7, 4, 5, 4, 6, 6, 6, 4, 10, 5, 6, 8, 7, 6, 7, 6, 9, 6, 7, 6, 8, 9, 5, 8, 5, 7, 2, 5, 8, 6, 5, 4, 5, 8, 9, 7, 4, 8, 6, 10, 10, 8, 6, 6, 5, 7, 7, 5, 8, 6, 11, 6, 8, 1, 5, 7, 7, 7, 7, 3, 4, 3, 5, 2, 6, 5, 5, 4, 7, 6, 9, 8, 5, 5, 9, 6, 6, 8, 10, 3, 5, 6, 8, 7, 2, 7, 2, 4, 5, 8, 6, 9, 7, 4, 7, 4, 6, 4, 7, 8, 7, 6, 10, 7, 6, 7, 7, 6, 7, 8, 6, 9, 6, 7, 3, 9, 4, 9, 5, 4, 5, 5, 6, 7, 7, 8, 7, 6, 5, 5, 6, 8, 6, 9, 5, 6, 4, 3, 7, 3, 9, 7, 4, 5, 8, 6, 4, 7, 11, 6, 9, 6, 4, 6, 4, 8, 5, 6, 11, 6, 7, 9, 4, 8, 5, 5, 5]
+
+####  Iteration: 2  ####
+Quantile Cutoff:  67075
+Sum of Weights: 400
+Mean Score:  63467,  Mean Counts:   88, Mean Diversity:  300
+Std Score:  2100, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 106276, Counts:  204, Diversity:  356)
+Running Best: MHYVRMKVYRDS (Score: 106276, Counts:  204,  Diversity:  356)
+Epoch 01, recon_loss: 283.9585, kl_div: 0.0000
+Epoch 1000, recon_loss: 117.7885, kl_div: 0.0000
+[0, 2, 4, 5, 2, 6, 2, 9, 6, 3, 2, 4, 7, 2, 4, 2, 1, 3, 5, 4, 5, 0, 4, 4, 7, 2, 1, 3, 4, 2, 6, 6, 6, 3, 7, 2, 4, 7, 2, 2, 0, 3, 4, 7, 10, 8, 3, 3, 2, 6, 8, 2, 2, 6, 4, 4, 1, 3, 3, 7, 2, 4, 4, 4, 3, 3, 7, 1, 1, 8, 8, 3, 1, 4, 2, 4, 4, 4, 2, 3, 4, 6, 3, 5, 4, 5, 1, 2, 3, 0, 0, 6, 5, 3, 5, 1, 5, 0, 6, 4, 5, 5, 7, 6, 2, 3, 6, 5, 4, 3, 0, 5, 0, 6, 3, 2, 0, 4, 4, 2, 1, 2, 2, 4, 5, 5, 2, 4, 6, 2, 5, 4, 4, 5, 3, 5, 5, 5, 6, 5, 2, 8, 2, 2, 1, 4, 1, 6, 9, 5, 6, 2, 5, 5, 2, 2, 1, 2, 5, 4, 7, 6, 7, 7, 2, 2, 3, 4, 7, 4, 5, 7, 1, 4, 3, 2, 5, 6, 6, 4, 6, 4, 5, 6, 5, 3, 5, 1, 3, 2, 6, 2, 4, 2, 3, 3, 1, 2, 5, 0, 2, 1, 3, 1, 3, 1, 3, 2, 3, 6, 3, 3, 1, 5, 1, 3, 5, 6, 3, 4, 4, 3, 7, 2, 4, 2, 5, 9, 4, 4, 5, 3, 6, 6, 2, 3, 4, 2, 5, 1, 1, 4, 1, 6, 3, 3, 5, 6, 2, 7, 8, 7, 9, 8, 4, 7, 7, 10, 8, 8, 6, 6, 8, 6, 6, 8, 6, 6, 5, 7, 8, 8, 6, 7, 5, 7, 9, 6, 7, 9, 6, 8, 5, 9, 9, 7, 4, 6, 7, 6, 8, 7, 12, 5, 6, 8, 4, 6, 6, 8, 9, 8, 6, 7, 3, 10, 6, 6, 5, 7, 5, 9, 4, 6, 6, 9, 10, 6, 3, 6, 5, 8, 7, 8, 5, 6, 10, 10, 8, 9, 5, 10, 10, 9, 9, 7, 8, 5, 6, 8, 7, 8, 6, 10, 10, 6, 4, 4, 6, 8, 8, 8, 8, 7, 4, 6, 9, 4, 9, 7, 9, 6, 10, 4, 8, 7, 8, 8, 5, 8, 8, 8, 4, 2, 8, 9, 6, 8, 11, 8, 8, 6, 7, 8, 9, 7, 5, 8, 7, 8, 7, 8, 8, 6, 9, 6, 7, 11, 9, 5, 8]
+
+####  Iteration: 3  ####
+Quantile Cutoff:  70015
+Sum of Weights: 361
+Mean Score:  63970,  Mean Counts:   91, Mean Diversity:  297
+Std Score:  2015, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: VDNDHMNGBDNN (Score: 106384, Counts:  207, Diversity:  336)
+Running Best: VDNDHMNGBDNN (Score: 106384, Counts:  207,  Diversity:  336)
+Epoch 01, recon_loss: 2331.4695, kl_div: 0.0000
+Epoch 1000, recon_loss: 1042.0344, kl_div: 0.0000
+[6, 3, 4, 4, 3, 4, 7, 4, 1, 6, 5, 5, 6, 6, 7, 4, 6, 5, 0, 6, 2, 4, 7, 2, 9, 8, 5, 7, 8, 5, 8, 4, 10, 1, 3, 7, 7, 6, 0, 11, 7, 8, 9, 7, 5, 6, 5, 2, 6, 5, 7, 8, 0, 6, 1, 7, 5, 3, 0, 7, 4, 3, 6, 7, 3, 3, 5, 4, 3, 7, 5, 2, 3, 4, 3, 5, 6, 4, 5, 0, 5, 4, 9, 5, 5, 4, 4, 2, 7, 2, 3, 1, 10, 3, 4, 8, 5, 2, 5, 3, 3, 7, 3, 3, 3, 2, 1, 5, 1, 5, 4, 5, 4, 4, 6, 4, 3, 1, 2, 0, 5, 6, 3, 5, 1, 5, 1, 8, 4, 5, 5, 7, 0, 3, 6, 7, 2, 0, 8, 1, 6, 2, 1, 6, 1, 1, 5, 2, 5, 5, 4, 3, 2, 7, 7, 4, 6, 2, 3, 6, 5, 1, 6, 3, 4, 4, 2, 6, 2, 5, 1, 4, 8, 4, 3, 6, 6, 7, 4, 6, 4, 2, 4, 4, 4, 3, 5, 7, 2, 5, 4, 5, 7, 3, 2, 7, 5, 3, 3, 3, 4, 4, 7, 2, 3, 3, 5, 2, 5, 1, 4, 2, 3, 0, 3, 6, 5, 3, 6, 6, 2, 3, 3, 9, 5, 4, 2, 4, 2, 7, 5, 5, 6, 4, 4, 5, 3, 6, 8, 6, 9, 7, 5, 6, 11, 5, 5, 7, 5, 6, 6, 5, 8, 6, 7, 3, 8, 9, 4, 6, 5, 7, 6, 10, 7, 4, 7, 6, 6, 9, 7, 7, 7, 8, 8, 8, 10, 5, 8, 8, 4, 7, 6, 6, 6, 10, 4, 7, 10, 9, 10, 4, 5, 3, 5, 8, 7, 7, 9, 10, 7, 5, 8, 6, 9, 10, 7, 6, 5, 4, 7, 8, 9, 10, 4, 4, 6, 8, 6, 10, 8, 8, 6, 9, 6, 9, 7, 8, 9, 6, 6, 10, 5, 7, 6, 5, 4, 7, 8, 7, 8, 6, 5, 6, 8, 7, 5, 3, 8, 7, 5, 6, 6, 9, 2, 8, 7, 3, 9, 6, 4, 7]
+
+####  Iteration: 4  ####
+Quantile Cutoff:  71492
+Sum of Weights: 345
+Mean Score:  64869,  Mean Counts:   93, Mean Diversity:  298
+Std Score:  2121, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105836, Counts:  210, Diversity:  354)
+Running Best: VDNDHMNGBDNN (Score: 106384, Counts:  207,  Diversity:  336)
+Epoch 01, recon_loss: 2009.9224, kl_div: 0.0000
+Epoch 1000, recon_loss: 838.9709, kl_div: 0.0000
+[6, 6, 7, 6, 4, 8, 6, 7, 7, 1, 3, 5, 4, 1, 7, 7, 8, 3, 1, 4, 3, 2, 7, 6, 3, 5, 5, 5, 7, 5, 6, 2, 7, 6, 5, 4, 1, 8, 5, 8, 7, 8, 5, 8, 3, 7, 1, 6, 4, 5, 3, 5, 6, 1, 5, 7, 5, 4, 7, 5, 2, 7, 0, 6, 4, 6, 2, 9, 9, 7, 6, 4, 4, 6, 3, 5, 7, 6, 3, 0, 8, 9, 5, 7, 5, 3, 6, 6, 1, 4, 2, 4, 3, 6, 4, 6, 5, 4, 6, 7, 5, 2, 2, 2, 2, 5, 2, 3, 3, 5, 4, 5, 3, 7, 2, 4, 5, 7, 4, 2, 7, 7, 2, 6, 2, 5, 2, 6, 2, 2, 3, 2, 5, 5, 3, 3, 5, 6, 4, 1, 4, 6, 6, 5, 0, 5, 1, 8, 6, 5, 4, 6, 0, 4, 8, 3, 6, 3, 7, 0, 6, 1, 2, 3, 1, 3, 3, 7, 6, 4, 4, 4, 5, 4, 1, 3, 4, 4, 2, 6, 5, 4, 1, 5, 7, 6, 6, 3, 4, 5, 7, 7, 4, 8, 3, 3, 4, 5, 6, 5, 2, 4, 4, 1, 5, 4, 6, 2, 3, 5, 5, 5, 4, 6, 3, 4, 2, 2, 4, 4, 2, 5, 11, 3, 4, 1, 6, 4, 3, 4, 6, 5, 3, 4, 6, 4, 4, 8, 5, 8, 7, 5, 8, 5, 6, 4, 7, 5, 9, 7, 4, 7, 7, 11, 8, 7, 9, 6, 7, 6, 10, 7, 3, 9, 7, 7, 6, 6, 10, 8, 9, 8, 6, 5, 7, 3, 6, 9, 5, 8, 7, 8, 7, 7, 7, 3, 6, 8, 7, 9, 7, 8, 8, 8, 9, 9, 9, 5, 7, 5, 8, 8, 7, 11, 4, 3, 6, 7, 7, 6, 8, 6, 4, 9, 7, 9, 6, 9, 9, 5, 8, 5, 6, 10, 7, 7, 9, 5, 7, 5, 8, 9, 5, 9, 7, 7, 7, 9, 10, 7, 6, 7, 5, 10, 3, 6]
+
+####  Iteration: 5  ####
+Quantile Cutoff:  73592
+Sum of Weights: 339
+Mean Score:  65983,  Mean Counts:   98, Mean Diversity:  299
+Std Score:  2041, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105521, Counts:  203, Diversity:  359)
+Running Best: VDNDHMNGBDNN (Score: 106384, Counts:  207,  Diversity:  336)
+Epoch 01, recon_loss: 1850.3369, kl_div: 0.0000
+Epoch 1000, recon_loss: 857.9609, kl_div: 0.0000
+[3, 8, 3, 2, 2, 3, 3, 3, 5, 3, 3, 1, 1, 4, 2, 7, 4, 5, 8, 2, 4, 6, 4, 6, 7, 3, 2, 7, 4, 2, 4, 5, 2, 1, 5, 2, 3, 4, 4, 4, 2, 2, 4, 5, 7, 7, 2, 1, 8, 3, 3, 6, 4, 5, 2, 3, 7, 8, 7, 8, 1, 8, 2, 9, 6, 4, 3, 5, 8, 5, 4, 1, 8, 9, 4, 7, 4, 4, 8, 7, 2, 7, 2, 6, 5, 6, 1, 8, 9, 4, 4, 8, 5, 7, 9, 8, 5, 8, 7, 0, 7, 7, 3, 6, 4, 2, 5, 4, 4, 4, 7, 2, 7, 1, 3, 2, 4, 7, 8, 8, 7, 4, 1, 3, 4, 3, 6, 7, 3, 5, 2, 6, 5, 0, 1, 5, 2, 3, 5, 5, 6, 6, 3, 2, 3, 3, 1, 3, 0, 2, 7, 3, 6, 5, 6, 3, 8, 5, 3, 4, 4, 4, 2, 7, 6, 4, 3, 4, 1, 3, 4, 8, 3, 2, 1, 7, 6, 5, 1, 0, 6, 0, 4, 1, 4, 2, 3, 4, 5, 4, 7, 3, 5, 3, 4, 2, 2, 5, 2, 0, 4, 4, 2, 5, 7, 7, 4, 2, 1, 5, 4, 6, 5, 7, 4, 3, 5, 3, 2, 4, 1, 3, 5, 4, 4, 2, 3, 7, 1, 2, 1, 6, 4, 2, 7, 7, 3, 5, 2, 3, 5, 4, 2, 5, 6, 9, 5, 8, 9, 5, 5, 6, 7, 8, 6, 4, 8, 8, 7, 7, 8, 10, 6, 6, 7, 6, 5, 9, 8, 6, 3, 8, 7, 10, 10, 8, 10, 6, 5, 8, 6, 9, 6, 8, 7, 6, 6, 7, 9, 8, 7, 8, 9, 8, 8, 9, 10, 7, 5, 5, 9, 7, 10, 8, 3, 4, 5, 8, 7, 7, 9, 5, 5, 7, 7, 3, 8, 5, 7, 5, 5, 11, 9, 6, 6, 7, 5, 6, 8, 7, 8, 7, 9, 9, 7, 8, 5, 9, 6]
+
+####  Iteration: 6  ####
+Quantile Cutoff:  74455
+Sum of Weights: 336
+Mean Score:  66424,  Mean Counts:   97, Mean Diversity:  303
+Std Score:  2114, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: MHYVRMKVYRDS (Score: 105974, Counts:  209, Diversity:  355)
+Running Best: VDNDHMNGBDNN (Score: 106384, Counts:  207,  Diversity:  336)
+Epoch 01, recon_loss: 1782.6013, kl_div: 0.0000
+Epoch 1000, recon_loss: 817.3664, kl_div: 0.0000
+[3, 4, 3, 5, 5, 7, 8, 4, 4, 5, 7, 4, 3, 1, 7, 6, 1, 8, 6, 7, 6, 5, 6, 8, 4, 5, 3, 7, 6, 4, 2, 1, 6, 2, 6, 5, 5, 3, 4, 5, 1, 2, 4, 8, 3, 2, 2, 4, 2, 5, 3, 2, 6, 3, 2, 6, 3, 8, 4, 5, 7, 5, 7, 6, 9, 4, 5, 6, 5, 5, 3, 2, 2, 4, 5, 3, 8, 4, 7, 4, 7, 3, 9, 3, 6, 7, 4, 3, 2, 6, 3, 6, 9, 3, 7, 6, 5, 4, 10, 8, 6, 1, 5, 9, 6, 7, 3, 7, 6, 3, 6, 3, 6, 5, 4, 2, 4, 9, 5, 8, 7, 3, 4, 5, 7, 0, 6, 4, 5, 2, 5, 5, 4, 3, 8, 3, 7, 4, 4, 3, 8, 8, 5, 6, 2, 7, 7, 6, 2, 6, 0, 7, 0, 6, 1, 2, 4, 5, 8, 8, 7, 3, 4, 4, 3, 3, 0, 1, 5, 4, 6, 2, 6, 6, 4, 2, 5, 7, 4, 2, 6, 1, 3, 6, 5, 2, 1, 2, 7, 6, 5, 0, 8, 4, 2, 0, 5, 3, 7, 5, 3, 6, 4, 2, 6, 2, 0, 4, 3, 4, 6, 8, 7, 2, 3, 7, 5, 4, 5, 6, 7, 4, 4, 5, 3, 3, 2, 4, 4, 2, 4, 6, 1, 2, 2, 5, 5, 3, 6, 7, 1, 5, 4, 4, 5, 3, 4, 6, 8, 5, 9, 8, 7, 10, 5, 8, 8, 6, 4, 5, 7, 7, 5, 6, 7, 5, 5, 7, 7, 6, 6, 6, 7, 7, 9, 9, 5, 8, 9, 5, 8, 8, 6, 7, 7, 6, 6, 6, 8, 7, 8, 8, 8, 7, 5, 9, 6, 6, 3, 10, 5, 11, 10, 2, 6, 6, 8, 7, 8, 9, 4, 2, 4, 9, 5, 6, 7, 5, 3, 9, 7, 6, 9, 6, 6, 8, 9, 7, 7, 9, 10, 8, 9, 6, 7, 8]
+
+####  Iteration: 7  ####
+Quantile Cutoff:  74723
+Sum of Weights: 335
+Mean Score:  66697,  Mean Counts:   98, Mean Diversity:  301
+Std Score:  2101, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: NKBMNWRGHRWM (Score: 106128, Counts:  247, Diversity:  323)
+Running Best: VDNDHMNGBDNN (Score: 106384, Counts:  207,  Diversity:  336)
+Epoch 01, recon_loss: 1783.1562, kl_div: 0.0000
+Epoch 1000, recon_loss: 855.6459, kl_div: 0.0000
+[11, 6, 2, 5, 4, 5, 2, 4, 3, 5, 4, 3, 5, 7, 3, 11, 1, 2, 4, 9, 2, 3, 3, 8, 6, 6, 3, 5, 3, 4, 6, 8, 5, 5, 3, 4, 7, 4, 7, 6, 7, 8, 4, 4, 6, 4, 3, 2, 8, 7, 8, 5, 8, 3, 3, 10, 6, 5, 8, 5, 5, 5, 5, 3, 5, 5, 8, 2, 3, 6, 3, 2, 1, 4, 3, 3, 5, 3, 7, 2, 2, 4, 2, 5, 5, 5, 8, 5, 6, 6, 6, 5, 7, 7, 6, 7, 5, 2, 2, 3, 5, 3, 6, 6, 7, 5, 8, 1, 3, 5, 6, 4, 4, 4, 5, 4, 7, 8, 3, 7, 5, 5, 3, 8, 8, 5, 2, 6, 8, 4, 11, 5, 7, 5, 3, 8, 3, 7, 8, 6, 5, 9, 7, 11, 4, 6, 5, 9, 6, 3, 5, 2, 4, 4, 3, 9, 5, 4, 4, 7, 7, 7, 5, 0, 6, 8, 9, 4, 6, 2, 6, 5, 0, 4, 4, 5, 4, 8, 4, 3, 5, 3, 7, 6, 6, 4, 5, 6, 5, 2, 6, 9, 4, 1, 6, 1, 3, 4, 7, 3, 2, 10, 6, 4, 3, 7, 2, 0, 3, 3, 7, 6, 2, 4, 2, 5, 2, 0, 4, 4, 6, 8, 6, 3, 4, 4, 4, 6, 7, 3, 4, 3, 2, 3, 1, 5, 3, 4, 6, 1, 3, 2, 2, 5, 3, 5, 7, 0, 5, 2, 9, 4, 2, 4, 5, 9, 6, 9, 8, 7, 8, 8, 6, 7, 7, 6, 7, 6, 7, 6, 5, 7, 7, 6, 7, 8, 6, 4, 8, 9, 9, 9, 7, 4, 8, 7, 8, 7, 6, 8, 6, 9, 9, 6, 6, 9, 8, 6, 4, 9, 3, 10, 10, 4, 5, 6, 7, 6, 6, 8, 5, 7, 6, 11, 6, 7, 7, 5, 3, 8, 6, 8, 7, 7, 8, 8, 9, 8, 8, 8, 8, 9, 9, 8, 7, 6]
+
+####  Iteration: 8  ####
+Quantile Cutoff:  75456
+Sum of Weights: 334
+Mean Score:  67351,  Mean Counts:  100, Mean Diversity:  302
+Std Score:  2068, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: NKBMNWRGHRWM (Score: 106904, Counts:  249, Diversity:  324)
+Running Best: NKBMNWRGHRWM (Score: 106904, Counts:  249,  Diversity:  324)
+Epoch 01, recon_loss: 1752.0077, kl_div: 0.0000
+Epoch 1000, recon_loss: 845.0739, kl_div: 0.0000
+[3, 8, 2, 8, 3, 7, 5, 6, 7, 4, 6, 6, 2, 5, 4, 8, 6, 1, 5, 2, 2, 4, 5, 6, 1, 2, 3, 2, 3, 4, 7, 6, 3, 6, 7, 10, 6, 8, 7, 3, 6, 3, 3, 1, 1, 3, 6, 6, 1, 3, 4, 7, 2, 3, 3, 8, 9, 4, 4, 5, 4, 8, 5, 8, 3, 3, 3, 6, 5, 5, 8, 3, 4, 6, 4, 4, 6, 8, 6, 7, 3, 6, 7, 5, 4, 7, 5, 3, 5, 2, 4, 2, 4, 5, 3, 2, 2, 3, 3, 3, 2, 6, 4, 2, 3, 2, 5, 6, 4, 7, 6, 3, 6, 6, 5, 7, 4, 7, 2, 3, 2, 6, 3, 4, 7, 8, 7, 6, 1, 3, 4, 5, 4, 3, 5, 3, 5, 8, 3, 4, 3, 5, 5, 8, 6, 3, 2, 4, 8, 5, 8, 6, 8, 4, 9, 4, 2, 11, 5, 10, 7, 6, 7, 6, 3, 3, 1, 4, 3, 3, 7, 4, 3, 5, 6, 8, 5, 4, 1, 6, 7, 7, 5, 1, 7, 3, 0, 4, 7, 4, 4, 7, 3, 5, 5, 3, 8, 4, 7, 4, 7, 5, 7, 4, 5, 5, 3, 5, 2, 4, 5, 4, 3, 1, 10, 7, 7, 2, 6, 2, 3, 4, 4, 7, 5, 6, 1, 3, 7, 9, 5, 6, 6, 3, 6, 7, 6, 4, 4, 4, 2, 4, 7, 0, 4, 3, 3, 4, 3, 6, 6, 3, 3, 6, 5, 4, 3, 5, 9, 7, 7, 5, 7, 10, 4, 7, 6, 7, 4, 7, 9, 8, 8, 6, 7, 9, 5, 7, 6, 8, 10, 9, 9, 8, 3, 9, 9, 9, 10, 6, 7, 10, 9, 8, 7, 10, 9, 9, 4, 9, 6, 9, 8, 4, 5, 4, 7, 8, 9, 9, 5, 4, 10, 4, 7, 8, 7, 4, 8, 7, 7, 6, 9, 6, 7, 10, 9, 7, 8, 10, 10, 10, 7, 7, 5]
+
+####  Iteration: 9  ####
+Quantile Cutoff:  75788
+Sum of Weights: 334
+Mean Score:  67746,  Mean Counts:  101, Mean Diversity:  306
+Std Score:  2081, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: ANVDBVGGMVHW (Score: 109713, Counts:  260, Diversity:  289)
+Running Best: ANVDBVGGMVHW (Score: 109713, Counts:  260,  Diversity:  289)
+Epoch 01, recon_loss: 1748.7202, kl_div: 0.0000
+Epoch 1000, recon_loss: 811.7780, kl_div: 0.0000
+[3, 2, 6, 1, 2, 6, 5, 6, 6, 9, 5, 7, 7, 8, 8, 2, 5, 7, 2, 1, 3, 7, 5, 5, 5, 3, 3, 2, 8, 6, 4, 5, 6, 2, 6, 0, 5, 6, 5, 4, 7, 5, 6, 5, 4, 5, 8, 1, 6, 2, 3, 7, 3, 5, 1, 3, 1, 6, 5, 5, 6, 7, 7, 7, 7, 3, 5, 3, 4, 0, 3, 6, 2, 1, 5, 3, 1, 2, 3, 5, 6, 5, 5, 4, 4, 5, 5, 9, 3, 6, 3, 5, 6, 5, 8, 2, 4, 1, 4, 5, 7, 9, 6, 9, 3, 5, 7, 6, 5, 5, 6, 4, 3, 2, 3, 5, 4, 2, 3, 2, 5, 4, 3, 5, 3, 1, 4, 2, 6, 5, 5, 7, 6, 7, 6, 6, 6, 5, 6, 9, 2, 3, 5, 4, 5, 3, 6, 7, 7, 5, 4, 8, 9, 2, 4, 4, 7, 7, 2, 6, 3, 4, 10, 6, 4, 4, 8, 8, 9, 4, 5, 4, 8, 7, 4, 6, 9, 6, 6, 11, 5, 2, 1, 3, 5, 4, 2, 4, 9, 7, 6, 5, 8, 7, 7, 5, 3, 8, 3, 4, 4, 7, 3, 5, 4, 8, 3, 6, 2, 5, 5, 6, 2, 7, 4, 8, 3, 7, 5, 3, 6, 0, 3, 7, 6, 6, 1, 9, 7, 4, 3, 7, 2, 3, 5, 3, 7, 4, 4, 0, 4, 6, 10, 4, 1, 8, 7, 5, 3, 5, 5, 2, 3, 7, 0, 3, 4, 6, 2, 6, 6, 5, 6, 3, 5, 3, 5, 10, 6, 9, 11, 4, 7, 8, 5, 6, 7, 8, 7, 6, 7, 8, 8, 7, 10, 8, 8, 4, 9, 8, 5, 7, 5, 9, 6, 9, 11, 7, 11, 4, 8, 7, 6, 5, 5, 5, 6, 7, 7, 9, 7, 2, 10, 6, 8, 8, 8, 4, 7, 6, 5, 8, 8, 6, 6, 9, 7, 8, 9, 9, 10, 9, 8, 7, 7]
+
+####  Iteration: 10  ####
+Quantile Cutoff:  76243
+Sum of Weights: 334
+Mean Score:  66630,  Mean Counts:   99, Mean Diversity:  300
+Std Score:  2084, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: ANVDBVGGMVHW (Score: 109198, Counts:  259, Diversity:  288)
+Running Best: ANVDBVGGMVHW (Score: 109713, Counts:  260,  Diversity:  289)
+Epoch 01, recon_loss: 1741.0898, kl_div: 0.0000
+Epoch 1000, recon_loss: 810.8467, kl_div: 0.0000
+[7, 3, 2, 5, 4, 3, 4, 1, 8, 4, 6, 4, 4, 5, 9, 2, 3, 3, 6, 5, 7, 10, 5, 4, 4, 5, 7, 3, 3, 1, 2, 5, 1, 6, 4, 8, 3, 5, 5, 6, 6, 4, 7, 7, 2, 3, 8, 2, 8, 6, 2, 2, 6, 5, 3, 3, 1, 4, 7, 5, 5, 5, 3, 6, 6, 5, 6, 3, 7, 5, 3, 4, 5, 5, 5, 2, 5, 7, 7, 6, 9, 6, 9, 5, 3, 4, 5, 3, 1, 3, 6, 2, 4, 5, 8, 2, 5, 4, 5, 5, 5, 5, 8, 5, 9, 3, 8, 4, 4, 5, 4, 9, 1, 4, 4, 3, 5, 7, 7, 6, 6, 4, 6, 7, 6, 5, 5, 4, 3, 1, 4, 5, 2, 2, 2, 6, 4, 5, 3, 2, 5, 2, 7, 5, 5, 7, 5, 5, 5, 10, 5, 6, 3, 3, 5, 4, 2, 6, 6, 7, 5, 4, 9, 9, 2, 5, 5, 5, 7, 2, 6, 4, 4, 9, 6, 6, 5, 7, 6, 6, 8, 3, 8, 6, 2, 7, 11, 7, 6, 7, 4, 5, 1, 5, 4, 3, 2, 4, 5, 7, 6, 8, 7, 6, 5, 2, 5, 5, 5, 9, 4, 7, 6, 2, 3, 7, 8, 7, 2, 5, 7, 5, 3, 7, 7, 3, 4, 1, 3, 5, 4, 5, 1, 9, 6, 7, 5, 5, 4, 6, 8, 4, 4, 1, 2, 8, 5, 8, 8, 7, 3, 4, 4, 2, 3, 6, 0, 4, 3, 6, 2, 6, 4, 6, 5, 3, 3, 4, 10, 5, 11, 9, 6, 11, 6, 6, 6, 5, 9, 8, 7, 5, 9, 7, 8, 10, 10, 10, 4, 8, 5, 9, 7, 7, 9, 6, 7, 8, 9, 10, 6, 8, 7, 7, 7, 5, 6, 7, 7, 7, 9, 8, 8, 5, 8, 9, 6, 6, 10, 6, 8, 8, 7, 5, 9, 9, 7, 9, 11, 11, 9, 9, 6, 7]
+
+####  Iteration: 11  ####
+Quantile Cutoff:  76301
+Sum of Weights: 334
+Mean Score:  66618,  Mean Counts:   99, Mean Diversity:  299
+Std Score:  2108, Std Counts:     6, Std Diversity:     6
+Best Sequence of this Iteration: ANVDBVGGMVHW (Score: 110032, Counts:  262, Diversity:  292)
+Running Best: ANVDBVGGMVHW (Score: 110032, Counts:  262,  Diversity:  292)
+Epoch 01, recon_loss: 1738.7852, kl_div: 0.0000
+Epoch 1000, recon_loss: 782.6373, kl_div: 0.0000
+[6, 4, 3, 2, 5, 3, 4, 8, 6, 5, 1, 4, 5, 6, 7, 2, 3, 5, 4, 3, 5, 5, 4, 3, 4, 6, 6, 5, 3, 3, 2, 1, 0, 7, 5, 5, 6, 5, 4, 10, 2, 4, 5, 4, 7, 9, 7, 4, 5, 6, 5, 2, 4, 4, 4, 5, 6, 3, 8, 3, 4, 6, 7, 6, 3, 7, 4, 2, 2, 5, 1, 9, 6, 4, 3, 4, 4, 6, 1, 4, 7, 4, 6, 6, 5, 5, 6, 9, 2, 6, 4, 3, 6, 2, 3, 1, 2, 6, 6, 6, 7, 7, 10, 7, 5, 5, 6, 3, 1, 8, 3, 1, 5, 7, 3, 3, 5, 7, 5, 3, 7, 4, 6, 2, 8, 3, 7, 4, 4, 8, 2, 5, 4, 2, 5, 8, 7, 6, 6, 6, 6, 6, 4, 7, 5, 3, 1, 4, 4, 5, 3, 2, 6, 3, 7, 4, 2, 3, 1, 7, 6, 8, 6, 4, 7, 4, 6, 2, 3, 5, 7, 1, 6, 6, 8, 3, 9, 8, 2, 4, 5, 7, 7, 3, 6, 4, 3, 7, 8, 8, 3, 6, 5, 6, 3, 6, 3, 8, 10, 9, 6, 7, 3, 4, 6, 3, 2, 4, 8, 7, 7, 6, 6, 6, 7, 8, 6, 5, 7, 8, 9, 3, 2, 7, 6, 7, 3, 5, 5, 3, 4, 9, 6, 4, 3, 2, 2, 5, 5, 6, 1, 10, 7, 2, 2, 2, 4, 6, 4, 2, 1, 4, 5, 6, 6, 6, 3, 5, 4, 4, 1, 7, 0, 4, 2, 5, 3, 6, 6, 3, 4, 3, 6, 9, 4, 8, 9, 8, 9, 7, 4, 6, 8, 10, 9, 7, 7, 6, 8, 10, 11, 9, 12, 6, 8, 7, 7, 6, 9, 5, 9, 8, 10, 4, 10, 10, 8, 7, 7, 7, 6, 6, 8, 7, 8, 5, 9, 5, 4, 9, 8, 7, 10, 7, 8, 7, 8, 10, 9, 8, 9, 10, 8, 6]
+
+####  Iteration: 12  ####

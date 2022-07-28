@@ -8,21 +8,21 @@
         "sites": 4
     },
     "vae_model_config": {
-        "type": "VAE",
+        "type": "AE",
         "enc_dim1": 40,
         "enc_dim2": 40,
         "z_dim": 20,
         "dec_dim1": 40,
         "dec_dim2": 40,
         "dropout": 0,
-        "reconstruction_loss_weight": 5,
-        "kl_div_weight": 1
+        "reconstruction_loss_weight": 1,
+        "kl_div_weight": 0
     },
     "vae_train_config": {
         "seed": 42,
         "batch_size": 128,
         "learning_rate": 0.0001,
-        "num_epochs": 1000
+        "num_epochs": 2000
     },
     "opt_config": {
         "type": "dbas",
@@ -30,11 +30,12 @@
         "iters": 20,
         "samples": 500,
         "uncertainty": false,  
+        "append_new": true,
         "quantile": 0.60,
         "cutoff": 1e-6,
         "diversity_thresh": 100,
-        "num_repeats": 80,
-        "num_workers": 85,
+        "num_repeats": 4,
+        "num_workers": 5,
         "top_fraction": 0.25
     }
 }
